@@ -15,10 +15,10 @@ show_downloads: false
 
 navbar-links:
   Home: "index"
-  About: "about"
-  Events: "events"
-  Membership: "membership"
+  About: "aboutme"
   Contact: "contact"
+  Download: "download"
+  FAQ: "faq"
 
 ################
 # --- Logo --- #
