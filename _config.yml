@@ -1,7 +1,6 @@
-title: OsbornTV`s homepage
+
 description: thats my WebPage for Github or anything
 
 remote_theme: pages-themes/cayman@v0.2.0
 #theme: jekyll-theme-cyman
 show_downloads: false
-plugins_dir: jekyll-remote-theme
