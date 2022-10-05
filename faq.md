@@ -1,4 +1,10 @@
-# FAQ
+---
+layout: page
+title: FAQ
+subtitle: Why you'd want to go on a date with me
+---
+
+FAQ
 
 F: Warum hast du jetzt eine WebPage?
 
