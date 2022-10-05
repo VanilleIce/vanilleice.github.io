@@ -1,6 +1,6 @@
 # OsbornTV`s WebPage
 
-!![Thumbnail](thumbnail.png)
+![Thumbnail](thumbnail.png)
 
 ## Anythings Krams
 
