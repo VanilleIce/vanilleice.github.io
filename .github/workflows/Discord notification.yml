@@ -1,4 +1,4 @@
-- name: Discord notification
+  name: Discord notification
   env:
     DISCORD_WEBHOOK: ${{ secrets.https://discord.com/api/webhooks/1027331959464136755/d__7B7H7wA9WH7vda922YoXGqHkkWPZ5SkdSYwI-KVF99gXTxFnMK41lg0CFR3Wcyolx }}
   uses: Ilshidur/action-discord@master
