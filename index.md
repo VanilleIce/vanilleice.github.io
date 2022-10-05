@@ -4,7 +4,7 @@
 
 ## Anythings Krams
 
-### [Contact-Mee](https://osborntv.github.io/about/contact-us.html "Contact-Mee")
+### [Contact-Me](https://osborntv.github.io/about/contact-me.html "Contact-Me")
 
 ### [FAQ](https://osborntv.github.io/faq/faq.html "FAQ")
 
