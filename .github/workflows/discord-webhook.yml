@@ -1,28 +1,15 @@
-    # Disable URL links to the repository
-     name: Run Discord Webhook
+name: Discord Webhook
+
+on: [push]
+
+jobs:
+  git:
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v2
+
+    - name: Run Discord Webhook
       uses: johnnyhuy/actions-discord-git-webhook@main 
       with:
         webhook_url: ${{ secrets.https://discord.com/api/webhooks/1027331959464136755/d__7B7H7wA9WH7vda922YoXGqHkkWPZ5SkdSYwI-KVF99gXTxFnMK41lg0CFR3Wcyolx }}
-        hide_links: true
-
-    # Censor username
-     name: Run Discord Webhook
-      uses: johnnyhuy/actions-discord-git-webhook@main 
-      with:
-        webhook_url: ${{ secrets.https://discord.com/api/webhooks/1027331959464136755/d__7B7H7wA9WH7vda922YoXGqHkkWPZ5SkdSYwI-KVF99gXTxFnMK41lg0CFR3Wcyolx }}
-        censor_username: false
-
-    # Using an ID and token
-     name: Run Discord Webhook
-      uses: johnnyhuy/actions-discord-git-webhook@main 
-      with:
-        id: ${{ secrets.1027336274421497867 }}
-        token: ${{ secrets.MTAyNzMzNjI3NDQyMTQ5Nzg2Nw.GQRhN6.BVJCmHFpM0jzXfuly-RTMCNdxbmujJXHsQtUrs }}
-
-    # Using a custom repo name
-     name: Run Discord Webhook
-      uses: johnnyhuy/actions-discord-git-webhook@main 
-      with:
-        id: ${{ secrets.1027336274421497867 }}
-        token: ${{ secrets.MTAyNzMzNjI3NDQyMTQ5Nzg2Nw.GQRhN6.BVJCmHFpM0jzXfuly-RTMCNdxbmujJXHsQtUrs }}
-        repo_name: My Special Repo
