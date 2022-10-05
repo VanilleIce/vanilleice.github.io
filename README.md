@@ -1,6 +1,8 @@
-# OsbornTV.github.io
+---
+layout: default
+---
 
-myWebPage
+# OsbornTV.github.io
 
 ## [Contact-Mee](https://osborntv.github.io/about/contact-us.html "Contact-Mee")
 
