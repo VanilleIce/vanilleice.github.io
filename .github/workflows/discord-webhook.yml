@@ -1,4 +1,7 @@
+
+
 name: Discord Webhook
+uses: johnnyhuy/actions-discord-git-webhook@v1.0.0
 
 on: [push]
 
