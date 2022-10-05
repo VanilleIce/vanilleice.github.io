@@ -1,6 +1,6 @@
-//--
+---
 layout: null
-//---
+---
 
 (function ($) {
   var $comments = $('.js-comments');
