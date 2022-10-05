@@ -4,8 +4,8 @@ title: Download
 subtitle: Why you'd want to go on a date with me
 ---
 
-Downloads
+## Downloads
 
 ## All my Downloads are available
 
-### [Krams](https://osborntv.github.io/about/404.html "Versuche es doch mal")
+### [Krams](https://osborntv.github.io/download.html "Versuche es doch mal")
