@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # OsbornTV.github.io
 
 ![Thumbnail](thumbnail.png)
