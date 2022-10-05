@@ -16,13 +16,13 @@
      name: Run Discord Webhook
       uses: johnnyhuy/actions-discord-git-webhook@main 
       with:
-        id: ${{ secrets.1015698765174292631 }}
-        token: ${{ secrets.MTAxNTY5ODc2NTE3NDI5MjYzMQ.GgmJvV.FC_QZBYBStrym1dmHZ1Tbb068Fk7HdieWoV3Eg }}
+        id: ${{ secrets.1027336274421497867 }}
+        token: ${{ secrets.MTAyNzMzNjI3NDQyMTQ5Nzg2Nw.GQRhN6.BVJCmHFpM0jzXfuly-RTMCNdxbmujJXHsQtUrs }}
 
     # Using a custom repo name
      name: Run Discord Webhook
       uses: johnnyhuy/actions-discord-git-webhook@main 
       with:
-        id: ${{ secrets.1015698765174292631 }}
-        token: ${{ secrets.MTAxNTY5ODc2NTE3NDI5MjYzMQ.GgmJvV.FC_QZBYBStrym1dmHZ1Tbb068Fk7HdieWoV3Eg }}
+        id: ${{ secrets.1027336274421497867 }}
+        token: ${{ secrets.MTAyNzMzNjI3NDQyMTQ5Nzg2Nw.GQRhN6.BVJCmHFpM0jzXfuly-RTMCNdxbmujJXHsQtUrs }}
         repo_name: My Special Repo
