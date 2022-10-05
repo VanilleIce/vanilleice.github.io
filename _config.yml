@@ -160,7 +160,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - screenshot.png
   - docs/
 
 plugins:
