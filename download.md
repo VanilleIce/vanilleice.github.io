@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Download
-subtitle: Why you'd want to go on a date with me
+subtitle: Finde meine Downloads und du bekommst ein Keks
 ---
 
 ## Downloads
 
-## All my Downloads are available
+### All my Downloads are available
 
 ### [Krams](https://osborntv.github.io/download.html "Versuche es doch mal")

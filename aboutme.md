@@ -1,16 +1,16 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Willst du mit mir ausgehen?
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Mein Name ist Osborn. Ich habe folgende Qalifikationen:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- Mein Hobby is nur vorm Rechner zusitzen xD
+- Ich mein das reicht doch oder?
 
-What else do you need?
+Was braucht man noch zu wissen?
 
-### My story
+### Meine Geschichte
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Um ehrlich zu sein, fällt es mir gerade etwas schwer, also warum schaust du nicht einfach selbst [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) es wird **alles** beantworten.

@@ -1,10 +1,8 @@
 ---
 layout: page
 title: Contact
-subtitle: Why you'd want to go on a date with me
+subtitle: Warum willst du mich Kontaktieren
 ---
-
-Contact-Me
 
 Wenn du mich kontaktieren möchtest darfst du es garnicht erst versuchen :)
 
