@@ -46,13 +46,13 @@ social-network-links:
   rss: false  # remove this line if you don't want to show an RSS link at the bottom
   github: OsbornTV
 #  youtube: OsbornTV
-#  steam: deanat78
+  steam: OsbornTV
 #  twitch: yourname
 #  discord: invite/invite_code or users/userid 
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: "This website is a virtual proof that I'm awesome"
 
 ###########################
 # --- General options --- #
@@ -64,16 +64,16 @@ share-links-active:
 #  facebook: true
 #  linkedin: true
 #  vk: false
-   steam: false
+   steam: true
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
 
 # Add a search button to the navbar
-post_search: true
+post_search: false
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: false
+edit_page_button: true
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
