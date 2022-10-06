@@ -4,7 +4,7 @@ title: About me
 subtitle: Willst du mit mir ausgehen oder warum schaust du dir das an?
 ---
 
-Mein Name ist Osborn. Ich habe folgende Qalifikationen:
+Mein Name ist **Osborn**. Ich habe folgende Qalifikationen:
 
 - Mein Hobby is nur vorm Rechner zusitzen xD
 - Ich mein das reicht doch oder?

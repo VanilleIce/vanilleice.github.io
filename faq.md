@@ -14,6 +14,6 @@ A: Warum nicht?, Ich wollte auch mal was neues ausprobieren und habe schon läng
 
 F: Was machst du alles an Projekten?
 
-A: Also zurzeit bin ich gerade dabei mit der Putzkolonne ganz viele neues zuerstellen
+A: Oh, schwierige Frage würde ich jzt sagen. Ich mach gerade viel, was ihr zuschau bekommt.
 
 --------------------------------------------------------------------------------------------

@@ -69,7 +69,7 @@ share-links-active:
 #  steam: false
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
+# excerpt_length: 50
 
 # Add a search button to the navbar
 post_search: false
@@ -80,7 +80,7 @@ edit_page_button: false
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
 # See https://github.com/daattali/beautiful-jekyll/issues/765 to understand the issue this setting can solve
-navbar-var-length: false
+navbar-var-length: true
 
 ######################################
 # --- Colours / background image --- #
@@ -103,9 +103,9 @@ footer-hover-col: "#0085A1"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-#navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
-#page-img: "/assets/img/bgimage.png"
+navbar-img: "/assets/img/bgimage.png"
+footer-img: "/assets/img/bgimage.png"
+page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 # mobile-theme-col: "#0085A1"
@@ -130,7 +130,7 @@ footer-hover-col: "#0085A1"
 ################
 
 # Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
+# date_format: "%B %-d, %Y"
 
 #################################################################################
 # --- You don't need to touch anything below here (but you can if you want) --- #
@@ -154,7 +154,7 @@ defaults:
       layout: "page"
       show-avatar: true
 # Use tags index page and make tags on each post clickable
-link-tags: true
+link-tags: false
 
 # Exclude these files from production site
 exclude:
