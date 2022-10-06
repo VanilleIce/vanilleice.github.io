@@ -130,7 +130,7 @@ footer-hover-col: "#0085A1"
 ################
 
 # Ruby Date Format to show dates of posts
- date_format: "%B %-d, %Y"
+date_format: "%B %-d, %Y"
 
 #################################################################################
 # --- You don't need to touch anything below here (but you can if you want) --- #
