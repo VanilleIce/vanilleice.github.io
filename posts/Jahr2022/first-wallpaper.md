@@ -7,5 +7,4 @@ gh-badge: [star, fork, follow]
 tags: [wallpaper]
 comments: false
 ---
-
-<h1>Mein erstes Wallpaper has arrived</h1>
+Mein erstes Wallpaper has arrived<
