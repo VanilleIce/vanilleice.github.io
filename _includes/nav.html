@@ -30,6 +30,12 @@
           </li>
         {%- endif -%}
       {%- endfor -%}
+      <h3></h3>
+        <div id="change-skin" title="Toggle Night Mode">
+    <span class="skin-btn dark-mode">🌙</span>
+    <span class="skin-btn light-mode">☀️</span>
+  </div>
+  
       {% if site.post_search %}
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
@@ -41,10 +47,7 @@
     </ul>
   </div>
 
-  <div id="change-skin" title="Toggle Night Mode">
-    <span class="skin-btn dark-mode">🌙</span>
-    <span class="skin-btn light-mode">☀️</span>
-  </div>
+
   
   {% if site.navbar-extra %}
     {% for file in site.navbar-extra %}
