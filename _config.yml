@@ -265,6 +265,9 @@ exclude:
   - Gemfile
   - README.md
 
+include:
+  - /posts
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
