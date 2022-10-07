@@ -25,8 +25,8 @@ navbar-links:
   - Contact: "contact"
   - FAQ: "faq"
   Posts:
-  - Posts2020: "posts2020"
   - Posts2022: "posts2022"
+  - Posts2020: "posts2020"
   Downloads: "download"
 
 ################
