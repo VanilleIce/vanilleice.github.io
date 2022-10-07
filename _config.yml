@@ -16,7 +16,7 @@ description: thats my WebPage
 ###############################################
 
 navbar-links:
-  Home: "home"
+  Home: "index"
   About: 
   - About: "aboutme"
   - Contact: "contact"
