@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FAQ
-subtitle: Fragen die häufig schon aufkamen
+subtitle: Fragen die schon häufiger aufkamen
 ---
 
 ## FAQ
