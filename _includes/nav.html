@@ -41,17 +41,17 @@
     </ul>
   </div>
 
-  <div id="change-skin" title="Toggle Night Mode">
-    <h3></h3>
-    <span class="skin-btn dark-mode">🌙</span>
-    <span class="skin-btn light-mode">☀️</span>
-  </div>
-
   {% if site.navbar-extra %}
     {% for file in site.navbar-extra %}
       {% include {{ file }} %}
     {% endfor %}
   {% endif %}
+
+  <div id="change-skin" title="Toggle Night Mode">
+    <h3></h3>
+    <span class="skin-btn dark-mode">🌙</span>
+    <span class="skin-btn light-mode">☀️</span>
+  </div>
 
   {% if site.avatar and page.show-avatar != false %}
     <div class="avatar-container">
