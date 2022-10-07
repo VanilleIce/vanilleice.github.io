@@ -38,6 +38,7 @@ round-avatar: true
 # then specify the following parameter
 # title-img: "thumbnail.png" #"/path/to/image"
 
+favicon: "assets/img/favicon.ico"
 #####################################
 # --- Footer social media links --- #
 #####################################
