@@ -24,6 +24,8 @@ navbar-links:
   - About: "aboutme"
   - Contact: "contact"
   - FAQ: "faq"
+  Posts:
+  - 2022: "post_first"
   Download: "download"
 
 ################

@@ -20,10 +20,6 @@
   <meta name="author" content="{{ site.author }}">
   {% endif %}
 
-  {% if site.mobile-theme-col %}
-  <meta name="theme-color" content="{{ site.mobile-theme-col }}">
-  {% endif %}
-
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
       {% include ext-css.html css=css %}
