@@ -25,7 +25,8 @@ navbar-links:
   - Contact: "contact"
   - FAQ: "faq"
   Posts:
-  - Posts2022: "2020-02-26-flake-it-till-you-make-it"
+  - Posts2022:
+    - PostFirst: "2020-02-26-flake-it-till-you-make-it"
   Download: "download"
 
 ################
