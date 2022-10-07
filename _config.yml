@@ -25,9 +25,9 @@ navbar-links:
   - Contact: "contact"
   - FAQ: "faq"
   Posts:
-  - Posts2020: "2020-02-26-flake-it-till-you-make-it", "2020-02-28-test-markdown"
-  - PostOctober22: "2022-10-09-first-wallpaper"
-  Download: "download"
+  - Posts2020: "Posts2020"
+  - Posts2022: "Posts2022"
+  Downloads: "download"
 
 ################
 # --- Logo --- #
