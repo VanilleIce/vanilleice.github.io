@@ -24,9 +24,9 @@ navbar-links:
   - About: "aboutme"
   - Contact: "contact"
   - FAQ: "faq"
-  Posts:
-  - Posts2022: "posts2022"
-  - Posts2020: "posts2020"
+  Wallpaper:
+  - FirstWallpaper: "first-wallpaper"
+  - TwiceWallpaper: "posts2020"
   Downloads: "download"
 
 ################
