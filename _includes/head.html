@@ -4,6 +4,25 @@
   
   <link rel="icon" type="image/vnd.microsoft.icon" href="assets/img/favicon.ico">
 
+  <style>
+
+    .disable-selection {
+        -webkit-touch-callout: none; /* iOS Safari                         */
+          -webkit-user-select: none; /* Safari                             */
+           -khtml-user-select: none; /* Konqueror HTML                     */
+             -moz-user-select: none; /* Firefox in der Vergangenheit (alte Versionen) */
+              -ms-user-select: none; /* Internet Explorer (>=10) / Edge    */
+                  user-select: none; /* Aktuell unterstützt:               */
+                                     /* Chrome, Opera und Firefox          */
+    }
+
+    div {
+        margin: 10px;
+        padding: 20px;
+    }
+
+  </style>
+
   {% capture title %}
     {%- if page.share-title -%}
       {{ page.share-title | strip_html | xml_escape }}
