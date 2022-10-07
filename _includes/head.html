@@ -14,6 +14,7 @@
     {%- endif -%}
   {% endcapture %}
 
+  <!--
   {% capture description %}
     {%- if page.share-description -%}
       {{ page.share-description | strip_html | xml_escape }}
@@ -24,6 +25,7 @@
       {{ page.content | strip_html | xml_escape | truncatewords: excerpt_length | strip }}
     {%- endif -%}
   {% endcapture %}
+  -->
 
   <title>{{ title }}</title>
 
@@ -31,7 +33,9 @@
   <meta name="author" content="{{ site.author }}">
   {% endif %}
 
+  <!--
   <meta name="description" content="{{ description }}">
+  -->
 
   {% if site.mobile-theme-col %}
   <meta name="theme-color" content="{{ site.mobile-theme-col }}">
@@ -92,9 +96,11 @@
   {%- endcapture -%}
   {%- assign img=img | strip -%}
 
+  <!--
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
-
+  -->
+  
   {% if img != "" %}
   <meta property="og:image" content="{{ img | absolute_url }}">
   {% endif %}
