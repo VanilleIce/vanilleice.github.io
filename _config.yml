@@ -266,7 +266,8 @@ exclude:
   - README.md
 
 include:
-  - /posts
+  - /posts/2020
+  - /posts/2022
 
 plugins:
   - jekyll-paginate
