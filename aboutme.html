@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About me
 subtitle: Willst du mit mir ausgehen oder warum schaust du dir das an?
 ---
