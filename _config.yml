@@ -25,7 +25,7 @@ navbar-links:
   - Contact: "contact"
   - FAQ: "faq"
   Posts:
-  - Posts2022: "post_first"
+  - Posts2022: "_posts/post_first"
   Download: "download"
 
 ################
@@ -43,7 +43,6 @@ navbar-links:
 # then specify the following parameter
 # title-img: "thumbnail.png" #"/path/to/image"
 
-#favicon: "assets/img/favicon.ico"
 #####################################
 # --- Footer social media links --- #
 #####################################
@@ -83,10 +82,10 @@ social-network-links:
 # excerpt_length: 50
 
 # Whether or not to show an excerpt for every blog post in the feed page
-# feed_show_excerpt: true
+feed_show_excerpt: true
 
 # Whether or not to show a list of tags below each post preview in the feed page
-# feed_show_tags: true
+feed_show_tags: true
 
 # Add a search button to the navbar
 post_search: false
@@ -243,7 +242,7 @@ kramdown:
 defaults:
   -
     scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       layout: "post"
