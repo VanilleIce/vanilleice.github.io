@@ -3,9 +3,9 @@ layout: page
 title: Posts 2020
 subtitle: Meine Posts aus 2020
 ---
-<br>
-<h1>Meine Posts aus dem Jahr 2020 findet ihr hier</h1>
-<br>
-<a href="/Jahr2020/flake-it-till-you-make-it.md">Februar-26-2020</a>
-<br>
-<a href="/Jahr2020/test-markdown.md">Februar-28-2020</a>
+
+Meine Posts aus dem Jahr 2020 findet ihr hier
+
+### [Krams](Jahr2020/flake-it-till-you-make-it.md "Versuche es doch mal")
+
+#### [Krams](Jahr2020/test-markdown.md "Versuche es doch mal")
