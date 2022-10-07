@@ -265,10 +265,6 @@ exclude:
   - Gemfile
   - README.md
 
-include:
-  - /posts/Jahr2020
-  - /posts/Jahr2022
-
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
