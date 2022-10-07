@@ -24,10 +24,7 @@ navbar-links:
   - About: "aboutme"
   - Contact: "contact"
   - FAQ: "faq"
-  Wallpaper:
-  - FirstWallpaper: "first-wallpaper"
-  - TwiceWallpaper: "posts2020"
-  Downloads: "download"
+  Wallpaper: "download" #verweis mit jedem Link zu den Wallpapers mit Datum dadrüber wann diese eingepflegt wurden
 
 ################
 # --- Logo --- #
