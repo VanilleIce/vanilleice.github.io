@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
+<nav class="navbar navbar-expand-xl navbar-light{% if page-dark-mode %}navbar-dark fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
 
   {%- if site.title-img -%}
     <a class="navbar-brand navbar-brand-logo" ><img alt="{{ site.title }} Logo" src="{{ site.title-img }}"/></a>
