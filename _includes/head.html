@@ -36,6 +36,10 @@
   <meta name="theme-color" content="{{ site.mobile-theme-col }}">
   {% endif %}
 
+  {% if site.keywords %}
+  <meta name="keywords" content="{{ site.keywords }}">
+  {% endif %}
+
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
       {% include ext-css.html css=css %}
@@ -107,7 +111,7 @@
   {% endif %}
 
   {% if page.comments and site.staticman.repository and site.staticman.branch %}
-  <link rel="stylesheet" href="{{ "assets\css\staticman.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
   {% endif %}
 
   {% if page.head-extra %}
