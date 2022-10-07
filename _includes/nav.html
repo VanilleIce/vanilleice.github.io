@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-xl fixed-top navbar-custom top-nav-short-permanent top-nav-short">
 
   {%- if site.title-img -%}
-    <span class="navbar-brand navbar-brand-logo"><img alt="{{ site.title }} Logo" src="{{ site.title-img }}"></span>
+    <div class="navbar-brand navbar-brand-logo"><img alt="{{ site.title }} Logo" src="{{ site.title-img }}"></div>
   {%- elsif site.title -%}
-    <span class="navbar-brand">{{ site.title }} </span>
+    <div> {{ site.title }} </div>
   {%- endif -%}
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
