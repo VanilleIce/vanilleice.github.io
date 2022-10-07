@@ -40,13 +40,13 @@
       {%- endif -%}
     </ul>
   </div>
-
+<p></p>
   {% if site.navbar-extra %}
     {% for file in site.navbar-extra %}
       {% include {{ file }} %}
     {% endfor %}
   {% endif %}
-
+<p></p>
   <div id="change-skin" title="Toggle Night Mode">
     <span class="skin-btn dark-mode">🌙</span>
     <span class="skin-btn light-mode">☀️</span>
@@ -61,5 +61,4 @@
   {% endif %}
 
 </nav>
-<h3></h3>
 {% include search.html %}
