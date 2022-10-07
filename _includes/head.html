@@ -40,10 +40,12 @@
   {% if site.mobile-theme-col %}
   <meta name="theme-color" content="{{ site.mobile-theme-col }}">
   {% endif %}
-
+  
+<!--
   {% if site.keywords %}
   <meta name="keywords" content="{{ site.keywords }}">
   {% endif %}
+-->
 
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
@@ -74,11 +76,11 @@
       <link rel="stylesheet" href="{{ css | relative_url }}">
     {% endfor %}
   {% endif %}
-
+<!--
   {% if site.title %}
   <meta property="og:site_name" content="{{ site.title }}">
   {% endif %}
-
+-->
   {%- capture img -%}
     {%- if page.share-img -%}
       {{ page.share-img }}
@@ -99,8 +101,8 @@
   <!--
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
-  -->
   
+
   {% if img != "" %}
   <meta property="og:image" content="{{ img | absolute_url }}">
   {% endif %}
@@ -116,7 +118,7 @@
   <meta property="og:url" content="{{ page.url | absolute_url | strip_index }}">
   <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
   {% endif %}
-
+-->
   {% if page.comments and site.staticman.repository and site.staticman.branch %}
   <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
   {% endif %}
