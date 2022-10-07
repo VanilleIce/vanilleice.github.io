@@ -60,7 +60,7 @@ social-network-links:
 ###########################
 
 # Select which social network share links to show in posts
-#share-links-active:
+# share-links-active:
 #  twitter: true
 #  facebook: true
 #  linkedin: true
@@ -75,16 +75,16 @@ social-network-links:
 # excerpt_length: 50
 
 # Whether or not to show an excerpt for every blog post in the feed page
-feed_show_excerpt: true
+# feed_show_excerpt: true
 
 # Whether or not to show a list of tags below each post preview in the feed page
-feed_show_tags: true
+# feed_show_tags: true
 
 # Add a search button to the navbar
 post_search: false
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: false
+# edit_page_button: false
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
@@ -92,7 +92,7 @@ edit_page_button: false
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+# keywords: "my,list,of,keywords"
 
 ######################################
 # --- Colours / background image --- #
@@ -120,7 +120,7 @@ footer-hover-col: "#0085A1"
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
- mobile-theme-col: "#0085A1"
+# mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 #site-css:
@@ -259,8 +259,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - LICENSE
-  - docs/
 
 plugins:
   - jekyll-paginate
