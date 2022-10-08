@@ -22,7 +22,7 @@ navbar-links:
   Home: "index"
   Language:
   - German: "index"
-  - English: "índex-en"
+  - English: "index-en"
   About: 
   - About: "aboutme"
   - Contact: "contact"
