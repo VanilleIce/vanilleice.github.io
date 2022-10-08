@@ -20,8 +20,8 @@ absolute_url: "https://osborntv.github.io"
 
 navbar-links:
   Home:
-  - German: "de"
-  - English: "en"
+  - German: "index.de"
+  - English: "index.en"
   About: 
   - About: "aboutme"
   - Contact: "contact"
