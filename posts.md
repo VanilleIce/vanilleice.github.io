@@ -5,4 +5,4 @@ title: Posts
 
 Meine Posts findet ihr hier
 
-### [Krams](posts/post "Versuche es doch mal")
+### [Krams](/post "Versuche es doch mal")
