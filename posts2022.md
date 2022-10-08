@@ -6,4 +6,4 @@ subtitle: Meine Posts aus 2022
 
 Meine Posts aus dem Jahr 2022 findet ihr hier
 
-### [Krams](/Posts "Versuche es doch mal")
+### [Krams](/posts "Versuche es doch mal")
