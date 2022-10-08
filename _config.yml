@@ -27,9 +27,7 @@ navbar-links:
   - Contact: "contact"
   - FAQ: "faq"
   Wallpaper:
-  - Download: "download" 
-  - Posts: "posts" #verweis mit jedem Link zu den Wallpapers mit Datum dadrüber wann diese eingepflegt wurden
-  - Posts2020: "posts2020"
+  - Download: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960" #verweis mit jedem Link zu den Wallpapers mit Datum dadrüber wann diese eingepflegt wurden
 
 ################
 # --- Logo --- #
