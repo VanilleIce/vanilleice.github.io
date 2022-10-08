@@ -1,6 +1,6 @@
 ---
 layout: page
-title: October22
+title: October
 ---
 
 Meine Posts findet ihr hier
