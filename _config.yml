@@ -29,7 +29,8 @@ navbar-links:
   - FAQ: "faq"
   Wallpaper: 
   - Download: "download" #verweis mit jedem Link zu den Wallpapers mit Datum dadrüber wann diese eingepflegt wurden
-  - Posts: "2020-02-28-test-markdown"
+  - Posts2022: "posts2022"
+  - Posts2020: "posts2020"
 
 ################
 # --- Logo --- #
