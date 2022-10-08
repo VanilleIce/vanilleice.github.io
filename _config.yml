@@ -26,8 +26,7 @@ navbar-links:
   - About: "aboutme"
   - Contact: "contact"
   - FAQ: "faq"
-  Wallpaper:
-  - Download: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960" #verweis mit jedem Link zu den Wallpapers mit Datum dadrüber wann diese eingepflegt wurden
+  Wallpaper: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960"
 
 ################
 # --- Logo --- #
