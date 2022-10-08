@@ -6,4 +6,4 @@ subtitle: Meine Posts aus 2022
 
 Meine Posts aus dem Jahr 2022 findet ihr hier
 
-### [Krams](posts/posts2022/October/first-wallpaper "Versuche es doch mal")
+### [Krams](posts/October22 "Versuche es doch mal")
