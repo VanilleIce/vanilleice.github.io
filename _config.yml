@@ -28,7 +28,7 @@ navbar-links:
   - FAQ: "faq"
   Wallpaper: 
   - Download: "download" 
-  - Posts2022: "posts2022" #verweis mit jedem Link zu den Wallpapers mit Datum dadrüber wann diese eingepflegt wurden
+  - Posts2022: "posts" #verweis mit jedem Link zu den Wallpapers mit Datum dadrüber wann diese eingepflegt wurden
   - Posts2020: "posts2020"
 
 ################
