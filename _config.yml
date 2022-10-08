@@ -26,7 +26,7 @@ navbar-links:
   - About: "aboutme"
   - Contact: "contact"
   - FAQ: "faq"
-  Wallpaper: 
+  Wallpaper:
   - Download: "download" 
   - Posts: "posts" #verweis mit jedem Link zu den Wallpapers mit Datum dadrüber wann diese eingepflegt wurden
   - Posts2020: "posts2020"
