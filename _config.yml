@@ -20,11 +20,16 @@ absolute_url: "https://osborntv.github.io"
 
 navbar-links:
   Home: "index"
+  Language:
+  - German: "index"
+  - English: "en"
   About: 
   - About: "aboutme"
   - Contact: "contact"
   - FAQ: "faq"
-  Wallpaper: "download" #verweis mit jedem Link zu den Wallpapers mit Datum dadrüber wann diese eingepflegt wurden
+  Wallpaper: 
+  - Download: "download" #verweis mit jedem Link zu den Wallpapers mit Datum dadrüber wann diese eingepflegt wurden
+  - Posts: "2020-02-28-test-markdown"
 
 ################
 # --- Logo --- #
