@@ -52,9 +52,9 @@ navbar-links:
 social-network-links:
   #email: "someone@example.com"
 #  rss: false  # remove this line if you don't want to show an RSS link at the bottom
-  github: OsbornTV
+#  github: OsbornTV
 #  youtube: OsbornTV
-  steam: OsbornTV
+#  steam: OsbornTV
 #  twitch: yourname
 #  discord: invite/invite_code or users/userid 
 
