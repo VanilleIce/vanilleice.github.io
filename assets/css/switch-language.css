@@ -19,18 +19,18 @@
 @media (max-width: 1199px) {
     #change-language {
         top: 0.85rem;
-        right: 5rem;
+        right: 1rem;
     }
 }
 
 @media (min-width: 1200px) {
     .navbar .navbar-collapse {
-        margin-right: 2.3rem;
+        margin-right: 1.3rem;
     }
 
     #change-language {
         top: auto;
-        right: 1rem;
+        right: 0.3rem;
     }
 }
 
