@@ -22,8 +22,6 @@ navbar-links:
   Home:
   - German: "de"
   - English: "en"
-  - German2: "de2"
-  - English2: "en2"
   About: 
   - About: "aboutme"
   - Contact: "contact"
