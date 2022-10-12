@@ -9,7 +9,7 @@ title: OsbornTV`s Wallpaper Site
 author: OsbornTV
 
 # Description
-description: thats my WebPage
+# description: thats my WebPage
 
 #
 # absolute_url: "https://osborntv.github.io"
@@ -19,14 +19,12 @@ description: thats my WebPage
 ###############################################
 
 navbar-links:
-  Home:
-  - German: "de"
-  - English: "en"
+  Posts: "posts"
+  Wallpaper: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960&p=1&numperpage=30"  # geht nur für PC :(
   About: 
   - About: "aboutme"
   - Contact: "contact"
   - FAQ: "faq"
-  Wallpaper: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960&p=1&numperpage=30"  # geht nur für PC :(
   Tests: "landingpage"
 
 ################
