@@ -1,0 +1,29 @@
+{
+    "short_name": "Figuya",
+    "name": "Figuya",
+    "description": "Anime Figuren Onlineshop",
+    "icons": [
+      {
+        "src": "/favicon-152.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/favicon-144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      }
+    ],
+    "start_url": "/de",
+    "scope": "/",
+    "background_color": "#e8e2d3",
+    "display": "standalone",
+    "orientation": "any",
+    "theme_color": "#f18420"
+  }
+  
