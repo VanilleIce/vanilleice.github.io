@@ -6,10 +6,33 @@ title: Impressum
 OsbornTV Wallpaper Site
 
 Eingetragen beim Amtsgericht
+
 Handelsregisternummer:
 
 Geschäftsführer:
+
 OsbornTV
+
+Adresse
+
+(auf anfrage)
+
+FAX
+
+(auf anfrage)
+
+Kontakt - E-MAIL
+
+kontakt@wallpaper.osborntv.de
+
+ONLINE
+
+https://osborntv.github.io
+
+UMSATZSTEUERIDENTIFIKATIONSNUMMER
+
+INHALTLICH VERANTWORTLICHE GEMÄSS § 55 ABS. 2 RST
+OsbornTV Wallpaper Site
 
 Adresse
 (auf anfrage)
@@ -17,19 +40,10 @@ Adresse
 FAX
 (auf anfrage)
 
-Kontakt - E-MAIL
-kontakt@wallpaper.osborntv.de
-
-ONLINE
-https://osborntv.github.io
-
-UMSATZSTEUERIDENTIFIKATIONSNUMMER
-
-INHALTLICH VERANTWORTLICHE GEMÄSS § 55 ABS. 2 RST
-OsbornTV Wallpaper Site
-(auf anfrage)
-(auf anfrage)
 Deutschland
+
+Kontakt - E-MAIL
+
 kontakt@wallpaper.osborntv.de
 
 Wir nutzen Secure Sockets Layer (SSL) als Sicherheitsprotokoll für eine sichere Verbindung für unsere Kunden. Das ist sichtbar an dem „https“ und dem Sicherheitsschloss im Browser.
