@@ -1,6 +1,35 @@
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link href="/manifest.json" rel="manifest">
+  
+    <meta content="OsbornTV`s Wallpaper" name="application-name">
+    <meta content="Tooltip" name="msapplication-tooltip">
+    <meta name="description" content="{{ site.description }}" data-rh="true">
+
+    <link rel="canonical" href="https://osborntv.github.io/de" data-rh="true">
+  
+    <link rel="alternate" href="https://osborntv.github.io/en" hreflang="en" data-rh="true">
+    <link rel="alternate" href="https://osborntv.github.io/de" hreflang="de" data-rh="true">
+    <link rel="alternate" href="https://osborntv.github.io/de" hreflang="x-default" data-rh="true">
+  
+    <link rel="icon" type="image/vnd.microsoft.icon" href="assets/img/favicon.ico">
+  
+    <meta name="theme-color" content="#f18420" data-rh="true">
+  
+    <meta content="/ieconfig.xml" name="msapplication-config">
+
+    <title>{{ title }}</title>
+
     <style href="/assets/css/landing.css">
     </style>
+
+    {% if page.head-extra %}
+        {% for file in page.head-extra %}
+            {% include {{ file }} %}
+        {% endfor %}
+    {% endif %}
+
 </head>
 
 <body style="margin:0;padding:0;" class="chakra-ui-light">
