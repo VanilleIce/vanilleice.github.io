@@ -3,30 +3,37 @@ layout: page
 title: Impressum
 ---
 
-OsbornTV Wallpaper Site<p></p>
-Eingetragen beim Amtsgericht<p></p>
-Handelsregisternummer:<p></p>
-GESCHÄFTSFÜHRER<p></p>
-OsbornTV<p></p>
-ADRESSE<p></p>
-(auf anfrage)<p></p>
-FAX<p></p>
-(auf anfrage)<p></p>
-E-MAIL<p></p>
-kontakt@wallpaper.osborntv.de<p></p>
-ONLINE<p></p>
-https://osborntv.github.io<p></p>
-UMSATZSTEUERIDENTIFIKATIONSNUMMER<p></p>
-<p></p>
+OsbornTV Wallpaper Site
+
+Eingetragen beim Amtsgericht
+Handelsregisternummer:
+
+GESCHÄFTSFÜHRER
+OsbornTV
+
+ADRESSE
+(auf anfrage)
+
+FAX
+(auf anfrage)
+
+E-MAIL
+kontakt@wallpaper.osborntv.de
+
+ONLINE
+https://osborntv.github.io
+
+UMSATZSTEUERIDENTIFIKATIONSNUMMER
+
 INHALTLICH VERANTWORTLICHE GEMÄSS § 55 ABS. 2 RST
 OsbornTV Wallpaper Site
 (auf anfrage)
 (auf anfrage)
 Deutschland
 kontakt@wallpaper.osborntv.de
-<p></p>
+
 Wir nutzen Secure Sockets Layer (SSL) als Sicherheitsprotokoll für eine sichere Verbindung für unsere Kunden. Das ist sichtbar an dem „https“ und dem Sicherheitsschloss im Browser.
-<p></p>
-Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie hier finden <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home.chooseLanguage"></a>
+
+Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie hier finden https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home.chooseLanguage
 
 Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind wir nicht verpflichtet und nicht bereit.
