@@ -24,8 +24,9 @@ navbar-links:
   About: 
   - About: "aboutme"
   - Contact: "contact"
-  - FAQ: "faq"
-  Tests: "landingpage"
+  - Impressum: "impressum"
+  - Datenschutz: "datenschutz"
+  FAQ: "faq"
 
 ################
 # --- Logo --- #
