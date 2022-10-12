@@ -24,12 +24,12 @@ author: OsbornTV
 navbar-links:
   Posts: "posts"
   Wallpaper: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960&p=1&numperpage=30"  # geht nur für PC :(
+  FAQ: "faq"  
   About: 
   - About: "aboutme"
   - Contact: "contact"
-  - Impressum: "impressum"
   - Datenschutz: "datenschutz"
-  FAQ: "faq"
+  - Impressum: "impressum"
 
 ################
 # --- Logo --- #
