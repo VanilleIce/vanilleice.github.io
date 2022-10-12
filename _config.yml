@@ -27,6 +27,9 @@ navbar-links:
   - Contact: "contact"
   - FAQ: "faq"
   Wallpaper: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960&p=1&numperpage=30"  #geht nur für PC :(
+  Tests: 
+  - IndexLanding: index.landing
+  - Landingpage: landingpage
 
 ################
 # --- Logo --- #
