@@ -22,14 +22,14 @@ navbar-links:
   Home:
   - German: "de"
   - English: "en"
+  - German2: "de2"
+  - English2: "en2"
   About: 
   - About: "aboutme"
   - Contact: "contact"
   - FAQ: "faq"
-  Wallpaper: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960&p=1&numperpage=30"  #geht nur für PC :(
-  Tests: 
-  - IndexLanding: index.landing
-  - Landingpage: landingpage
+  Wallpaper: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960&p=1&numperpage=30"  # geht nur für PC :(
+  Tests: "landingpage"
 
 ################
 # --- Logo --- #
