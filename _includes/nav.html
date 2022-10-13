@@ -10,12 +10,6 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="language_mode">  
-    <a><link rel="alternate" hreflang="en" href="https://osborntv.github.io/en" ></a>
-    <a><link rel="alternate" hreflang="de" href="https://osborntv.github.io/de" ></a>
-    <a><link rel="alternate" hreflang="jp" href="https://osborntv.github.io/jp" ></a>
-  </div>
-
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
       {%- for link in site.navbar-links -%}
@@ -25,7 +19,7 @@
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
               {%- for childlink in link[1] -%}
                 {%- for linkparts in childlink %}
-                  <a class="dropdown-item" class="language-mode" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
+                  <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
                 {%- endfor -%}
               {%- endfor %}
             </div>
@@ -36,7 +30,6 @@
           </li>
         {%- endif -%}
       {%- endfor -%}
-      <!--Search bereich-->
       {% if site.post_search %}
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
