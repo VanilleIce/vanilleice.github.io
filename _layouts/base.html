@@ -23,7 +23,7 @@ common-js:
 
 {% include head.html %}
 
-<body>
+<body class=".preload {overflow: hidden;}" class="preload"">
 
   {% include nav.html %}
 
@@ -45,6 +45,7 @@ common-js:
 
 <script>
     $(window).on("load",function(){
+        $("body").removeClass("preload");
         $(".loading-container").fadeOut("slow");
     });
 </script>

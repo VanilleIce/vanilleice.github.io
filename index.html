@@ -16,7 +16,7 @@
 
 </head>
 
-<body style="margin:0;padding:0;" class="chakra-ui-light">
+<body class=".preload {overflow: hidden;}" class="preload">
     <div id="OsbornTVWallpaper">
         <div id="language-landing"
             style="margin: 0px; display: flex; min-height: 100vh; width: 100%; background: linear-gradient(to right, rgb(255, 146, 43), rgb(253, 126, 20)); justify-content: center; align-items: stretch;">
@@ -60,6 +60,7 @@
 
     <script>
         $(window).on("load",function(){
+            $("body").removeClass("preload");
             $(".loading-container").fadeOut("slow");
         });
     </script>
