@@ -21,14 +21,14 @@ language:
 ###############################################
 
 navbar-links:
-  Posts: "{{language-mode}}/posts"
+  Posts: "posts"
   Wallpaper: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960&p=1&numperpage=30"  # geht nur für PC :(
-  FAQ: "{{language-mode}}/faq"  
+  FAQ: "faq"  
   About: 
-  - About: "{{language-mode}}/aboutme"
-  - Contact: "{{language-mode}}/contact"
-  - Datenschutz: "{{language-mode}}/datenschutz"
-  - Impressum: "{{language-mode}}/impressum"
+  - About: "aboutme"
+  - Contact: "contact"
+  - Datenschutz: "datenschutz"
+  - Impressum: "impressum"
 
 ################
 # --- Logo --- #
