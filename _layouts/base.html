@@ -1,21 +1,21 @@
 ---
-common-css:  
-  - "/assets/css/bootstrap-social.css"
-  - "/assets/css/beautifuljekyll.css"
-  - "/assets/css/skin-switch.css"
+common-css:
+- "/assets/css/bootstrap-social.css"
+- "/assets/css/beautifuljekyll.css"
+- "/assets/css/skin-switch.css"
 common-ext-css:
-  - href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    sri: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-  - href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+- href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+sri: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+- href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
 common-ext-js:
-  - href: "https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    sri: "sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-  - href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    sri: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+- href: "https://code.jquery.com/jquery-3.5.1.slim.min.js"
+sri: "sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+- href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+sri: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 common-js:
-  - "/assets/js/beautifuljekyll.js"
-  - "/assets/js/night-light.js"
-  - "/assets/js/staticman.js"
+- "/assets/js/beautifuljekyll.js"
+- "/assets/js/night-light.js"
+- "/assets/js/staticman.js"
 ---
 
 <!DOCTYPE html>
@@ -23,7 +23,7 @@ common-js:
 
 {% include head.html %}
 
-<body class=".preload {overflow: hidden;}" class="preload"">
+<body class="preload">
 
   {% include nav.html %}
 
@@ -36,24 +36,23 @@ common-js:
   <div class="loading-container">
     <div class="loading"></div>
     <div id="loading-text">loading</div>
-</div>
+  </div>
 
-<!--// Link Attribution -->
-<a href="" title="OsbornTV"
-    id="link">OsbornTV
-</a>
+  <!--// Link Attribution -->
+  <a href="" title="OsbornTV" id="link">OsbornTV
+  </a>
 
-<script>
-    $(window).on("loading",function(){
-        $("body").removeClass("preload");
-        $(".loading").fadeOut("slow");
+  <script>
+    $(window).on("loading", function () {
+      $("body").removeClass("preload");
+      $(".loading").fadeOut("slow");
     });
-</script>
+  </script>
 
   <noscript>
     <p>OsbornTV`s Wallpaper Site funktioniert besser mit Javascript.</p>
   </noscript>
-  
+
 </body>
 
 </html>
