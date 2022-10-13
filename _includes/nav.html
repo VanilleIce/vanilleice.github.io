@@ -14,18 +14,13 @@
     <ul class="navbar-nav ml-auto">
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}
-        {%- if link[2].second %}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link[0] }}</a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
               {%- for childlink in link[1] -%}
-              {%- for childlink in link[2] -%}
                 {%- for linkparts in childlink %}
                   <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
                 {%- endfor -%}
-                {%- for linkparts[2] in childlink %}
-                <a class="dropdown-item" href="{{ linkparts[2] | relative_url }}">{{ linkparts[1] }}</a>
-              {%- endfor -%}
               {%- endfor %}
             </div>
           </li>
@@ -33,12 +28,7 @@
           <li class="nav-item">
             <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
           </li>
-        {% else %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ link[2] | relative_url }}">{{ link[1] }}</a>
-          </li>
-      {%- endif -%}
-      {%- endif -%}
+        {%- endif -%}
       {%- endfor -%}
       <!--Search bereich-->
       {% if site.post_search %}
