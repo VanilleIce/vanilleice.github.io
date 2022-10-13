@@ -3,19 +3,19 @@
 ############################
 
 # Name of website
-title: OsbornTV`s Wallpapers
+title: "OsbornTV`s Wallpapers"
 
 # Your name to show in the footer
-author: OsbornTV
+author: "OsbornTV"
 
 # Description
-# description: thats my WebPage
+# description: "thats my WebPage"
 
 #
 language: 
-- de
-- en
-- jp
+- "de"
+- "en"
+- "jp"
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
