@@ -23,7 +23,7 @@ common-js:
 
 {% include head.html %}
 
-<body>
+<body class="preload">
 
   {% include nav.html %}
 
@@ -32,6 +32,17 @@ common-js:
   {% include footer.html %}
 
   {% include footer-scripts.html %}
+
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
+  <script>
+    $(Window).on("load", function () {
+      $(".loader-wrapper").fadeOut("slow");
+      $("body").removeClass("preload");
+    });
+  </script>
 
 </body>
 

@@ -47,14 +47,15 @@
         </div>
     </div>
 
-    <div class="loading-container">
-        <div class="loading"></div>
-        <div id="loading-text">loading</div>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
     </div>
-
-    <a href="" title="OsbornTV" id="link">OsbornTV
-    </a>
-    
+    <script>
+        $(Window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+            $("body").removeClass("preload");
+        });
+    </script>
 </body>
 
 </html>
