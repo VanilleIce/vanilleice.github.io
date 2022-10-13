@@ -19,14 +19,14 @@
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
               {%- for childlink in link[1] -%}
                 {%- for linkparts in childlink %}
-                  <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] | relative_url }}</a>
+                  <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] | absolute_url }}</a>
                 {%- endfor -%}
               {%- endfor %}
             </div>
           </li>
         {% else %}
           <li class="nav-item">
-            <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] | relative_url }}</a>
+            <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] | absolute_url }}</a>
           </li>
         {%- endif -%}
       {%- endfor -%}
