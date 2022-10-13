@@ -12,10 +12,10 @@ author: "OsbornTV"
 # description: "thats my WebPage"
 
 #
-language: 
-- "de"
-- "en"
-- "jp"
+#language: 
+#- "de"
+#- "en"
+#- "jp"
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
