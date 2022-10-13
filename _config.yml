@@ -11,19 +11,24 @@ author: OsbornTV
 # Description
 # description: thats my WebPage
 
+#
+language: 
+- de
+- en
+- jp
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  Posts: "posts"
+  Posts: "{{language-mode}}/posts"
   Wallpaper: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960&p=1&numperpage=30"  # geht nur für PC :(
-  FAQ: "faq"  
+  FAQ: "{{language-mode}}/faq"  
   About: 
-  - About: "aboutme"
-  - Contact: "contact"
-  - Datenschutz: "datenschutz"
-  - Impressum: "impressum"
+  - About: "{{language-mode}}/aboutme"
+  - Contact: "{{language-mode}}/contact"
+  - Datenschutz: "{{language-mode}}/datenschutz"
+  - Impressum: "{{language-mode}}/impressum"
 
 ################
 # --- Logo --- #
