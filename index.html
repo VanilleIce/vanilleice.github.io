@@ -14,14 +14,6 @@
     <style href="/assets/css/landing.css">
     </style>
 
-    <div class="loading-container">
-        <div class="loading"></div>
-        <div id="loading-text">loading</div>
-    </div>
-    <!--// Link Attribution -->
-    <a href="" title="OsbornTV" id="link">OsbornTV
-    </a>
-
 </head>
 
 <body style="margin:0;padding:0;" class="chakra-ui-light">
@@ -55,6 +47,22 @@
         </div>
     </div>
     </div>
+
+    <div class="loading-container">
+        <div class="loading"></div>
+        <div id="loading-text">loading</div>
+    </div>
+    
+    <!--// Link Attribution -->
+    <a href="" title="OsbornTV"
+        id="link">OsbornTV
+    </a>
+
+    <script>
+        $(window).on("load",function(){
+            $(".loading-container").fadeOut("slow")
+        });
+    </script>
     <noscript>
         <p>OsbornTV`s Wallpaper Site funktioniert besser mit Javascript.</p>
     </noscript>
