@@ -24,7 +24,7 @@ common-js:
 
 {% include head.html %}
 
-<body class="preload">
+<body>
 
   {% include nav.html %}
 
@@ -39,10 +39,7 @@ common-js:
   </div>
 
   <script>
-    $(Window).on("load", function () {
-      $("body").removeClass("preload");
-      $(".loader-wrapper").fadeOut("slow");
-    });
+    $("document").ready($(".loader-wrapper").fadeOut("slow"));
   </script>
 
 </body>
