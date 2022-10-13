@@ -11,6 +11,9 @@ author: "OsbornTV"
 # Description
 # description: "thats my WebPage"
 
+#
+show_drafts: null
+excerpt_separator   : "\n\n"
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
