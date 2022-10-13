@@ -5,15 +5,23 @@
   <link rel="manifest" href="/site.webmanifest">
   <meta content="OsbornTV`s Wallpaper" name="application-name">
   <!--<link rel="icon" href="/assets/icon/favicon.ico">-->
-  
+
+  <div class="loading-container">
+    <div class="loading"></div>
+    <div id="loading-text">loading</div>
+  </div>
+  <!--// Link Attribution -->
+  <a href="" title="OsbornTV" id="link">OsbornTV
+  </a>
+
   {% capture title %}
-    {%- if page.share-title -%}
-      {{ page.share-title | strip_html | xml_escape }}
-    {%- elsif page.title -%}
-      {{ page.title | strip_html | xml_escape  }}
-    {%- else -%}
-      {{ site.title | strip_html | xml_escape }}
-    {%- endif -%}
+  {%- if page.share-title -%}
+  {{ page.share-title | strip_html | xml_escape }}
+  {%- elsif page.title -%}
+  {{ page.title | strip_html | xml_escape }}
+  {%- else -%}
+  {{ site.title | strip_html | xml_escape }}
+  {%- endif -%}
   {% endcapture %}
 
   <title>{{ title }}</title>
@@ -23,60 +31,60 @@
   {% endif %}
 
   {% if layout.common-ext-css %}
-    {% for css in layout.common-ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
+  {% for css in layout.common-ext-css %}
+  {% include ext-css.html css=css %}
+  {% endfor %}
   {% endif %}
 
   {% if layout.common-css %}
-    {% for css in layout.common-css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}">
-    {% endfor %}
+  {% for css in layout.common-css %}
+  <link rel="stylesheet" href="{{ css | relative_url }}">
+  {% endfor %}
   {% endif %}
 
   {% if site.site-css %}
-    {% for css in site.site-css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}">
-    {% endfor %}
+  {% for css in site.site-css %}
+  <link rel="stylesheet" href="{{ css | relative_url }}">
+  {% endfor %}
   {% endif %}
 
   {% if page.ext-css %}
-    {% for css in page.ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
+  {% for css in page.ext-css %}
+  {% include ext-css.html css=css %}
+  {% endfor %}
   {% endif %}
-  
+
   {% if page.css %}
-    {% for css in page.css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}">
-    {% endfor %}
+  {% for css in page.css %}
+  <link rel="stylesheet" href="{{ css | relative_url }}">
+  {% endfor %}
   {% endif %}
 
   {%- capture img -%}
-    {%- if page.share-img -%}
-      {{ page.share-img }}
-    {%- elsif page.cover-img -%}
-      {%- if page.cover-img.first -%}
-        {{ page.cover-img[0].first.first }}
-      {%- else -%}
-        {{ page.cover-img }}
-      {%- endif -%}
-    {%- elsif page.thumbnail-img -%}
-      {{ page.thumbnail-img }}
-    {%- elsif site.avatar -%}
-      {{ site.avatar }}
-    {% endif %}
+  {%- if page.share-img -%}
+  {{ page.share-img }}
+  {%- elsif page.cover-img -%}
+  {%- if page.cover-img.first -%}
+  {{ page.cover-img[0].first.first }}
+  {%- else -%}
+  {{ page.cover-img }}
+  {%- endif -%}
+  {%- elsif page.thumbnail-img -%}
+  {{ page.thumbnail-img }}
+  {%- elsif site.avatar -%}
+  {{ site.avatar }}
+  {% endif %}
   {%- endcapture -%}
   {%- assign img=img | strip -%}
 
   {% if page.comments and site.staticman.repository and site.staticman.branch %}
-  <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ " /assets/css/staticman.css" | relative_url }}">
   {% endif %}
 
   {% if page.head-extra %}
-    {% for file in page.head-extra %}
-      {% include {{ file }} %}
-    {% endfor %}
+  {% for file in page.head-extra %}
+  {% include {{ file }} %}
+  {% endfor %}
   {% endif %}
 
 </head>
