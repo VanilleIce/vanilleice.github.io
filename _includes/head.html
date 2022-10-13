@@ -11,6 +11,7 @@
     {%- else -%}
       {{ site.title | strip_html | xml_escape }}
     {%- endif -%}
+    {% endcapture %}
 
   <title>{{ title }}</title>
 
