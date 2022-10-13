@@ -18,7 +18,6 @@
 
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
-      {%- for language in site.language_mode -%}
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}
           <li class="nav-item dropdown">
@@ -26,7 +25,7 @@
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
               {%- for childlink in link[1] -%}
                 {%- for linkparts in childlink %}
-                  <a class="dropdown-item" href="/{{ language[1] }} | {{ linkparts[1] | relative_url }}">{{ language[0] }}{{ linkparts[0] }}</a>
+                  <a class="dropdown-item" href="/{{ language }}/{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
                 {%- endfor -%}
               {%- endfor %}
             </div>
@@ -36,7 +35,6 @@
             <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
           </li>
         {%- endif -%}
-      {%- endfor -%}
       {%- endfor -%}
       <!--Search bereich-->
       {% if site.post_search %}
