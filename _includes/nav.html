@@ -10,7 +10,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="language-mode">  
+  <div class="language_mode">  
     <a><link rel="alternate" hreflang="en" href="https://osborntv.github.io/en" ></a>
     <a><link rel="alternate" hreflang="de" href="https://osborntv.github.io/de" ></a>
     <a><link rel="alternate" hreflang="jp" href="https://osborntv.github.io/jp" ></a>
@@ -25,7 +25,7 @@
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
               {%- for childlink in link[1] -%}
                 {%- for linkparts in childlink %}
-                  <a class="dropdown-item" href="{{ language-mode | linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
+                  <a class="dropdown-item" href="{{ language_mode }} {{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
                 {%- endfor -%}
               {%- endfor %}
             </div>
