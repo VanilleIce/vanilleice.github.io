@@ -19,7 +19,9 @@
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
               {%- for childlink in link[1] -%}
                 {%- for linkparts in childlink %}
-                  <a class="dropdown-item" hreflang="" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
+                  <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}" hreflang="de">{{ linkparts[0] }}</a>
+                  <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}" hreflang="en">{{ linkparts[0] }}</a>
+                  <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}" hreflang="jp">{{ linkparts[0] }}</a>
                 {%- endfor -%}
               {%- endfor %}
             </div>
