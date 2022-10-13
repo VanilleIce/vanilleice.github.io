@@ -16,14 +16,14 @@ author: OsbornTV
 ###############################################
 
 navbar-links:
-  Posts: "/posts"
+  Posts: "./posts"
   Wallpaper: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960&p=1&numperpage=30"  # geht nur für PC :(
-  FAQ: "/faq"  
+  FAQ: "./faq"  
   About: 
-  - About: "/aboutme"
-  - Contact: "/contact"
-  - Datenschutz: "/datenschutz"
-  - Impressum: "/impressum"
+  - About: "./aboutme"
+  - Contact: "./contact"
+  - Datenschutz: "./datenschutz"
+  - Impressum: "./impressum"
 
 ################
 # --- Logo --- #
