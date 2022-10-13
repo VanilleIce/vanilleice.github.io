@@ -240,10 +240,6 @@ body {
     }
 }
 
-.preload {
-    overflow: hidden;
-}
-
 .loading-container,
 .loading {
     height: 100px;
