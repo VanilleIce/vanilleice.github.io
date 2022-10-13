@@ -23,7 +23,7 @@
                 {%- for linkparts in childlink %}
                   <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
                 {%- endfor -%}
-                {%- for linkparts in childlink %}
+                {%- for linkparts[2] in childlink %}
                 <a class="dropdown-item" href="{{ linkparts[2] | relative_url }}">{{ linkparts[1] }}</a>
               {%- endfor -%}
               {%- endfor %}
