@@ -11,9 +11,9 @@
   </button>
 
   <div class="language-mode">  
-    <link rel="alternate" href="https://osborntv.github.io/en" hreflang="en">
-    <link rel="alternate" href="https://osborntv.github.io/de" hreflang="de">
-    <link rel="alternate" href="https://osborntv.github.io/jp" hreflang="jp">
+    <a><link rel="alternate" hreflang="en" href="https://osborntv.github.io/en" ></a>
+    <a><link rel="alternate" hreflang="de" href="https://osborntv.github.io/de" ></a>
+    <a><link rel="alternate" hreflang="jp" href="https://osborntv.github.io/jp" ></a>
   </div>
 
   <div class="collapse navbar-collapse" id="main-navbar">
@@ -25,7 +25,7 @@
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
               {%- for childlink in link[1] -%}
                 {%- for linkparts in childlink %}
-                  <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
+                  <a class="dropdown-item" rel="alternate" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
                 {%- endfor -%}
               {%- endfor %}
             </div>
