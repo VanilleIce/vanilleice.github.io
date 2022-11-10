@@ -25,6 +25,16 @@ common-js:
 
 <body>
 
+  <div id="preloader">
+    <div class="load">
+      <hr/>
+      <hr/>
+      <hr/>
+      <hr/>
+    </div>
+  </div>
+  {% include landing-page.html %}
+
   {% include nav.html %}
 
   {{ content }}
@@ -33,6 +43,7 @@ common-js:
 
   {% include footer-scripts.html %}
 
-</body>
+  <noscript>Please enable JavaScript to view this Site</noscript>
 
+</body>
 </html>
