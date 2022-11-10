@@ -18,28 +18,31 @@ common-js:
 
 <!DOCTYPE html>
 <html lang="de">
-  
+
 {% include head.html %}
 
 <body>
   <div id="preloader">
     <div class="load">
-      <hr/>
-      <hr/>
-      <hr/>
-      <hr/>
+      <hr />
+      <hr />
+      <hr />
+      <hr />
     </div>
-</div>
-  {% include landing-page.html %}
+  </div>
 
   {% include nav.html %}
-<div class="layout">
 
-  {{ content }}
+  <div class="layout">
 
-</div>
-{% include footer.html %}
+    {{ content }}
 
-{% include footer-scripts.html %}
+  </div>
+
+  {% include footer.html %}
+
+  {% include footer-scripts.html %}
+
 </body>
+
 </html>
