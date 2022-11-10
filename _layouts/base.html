@@ -4,14 +4,11 @@ common-css:
   - "/assets/css/beautifuljekyll.css"
   - "/assets/css/skin-switch.css"
 common-ext-css:
-  - href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  sri: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-  - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+  - "/assets/css/bootstrap.min.css"
+  - "/assets/css/cloudflareFontAwseome.min.css"
 common-ext-js:
-  - href: "https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  sri: "sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-  - href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-  sri: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  - "/assets/js/jquery-3.5.1.slim.js"
+  - "/assets/js/bootstrap.min.js"
 common-js:
   - "/assets/js/beautifuljekyll.js"
   - "/assets/js/night-light.js"
@@ -22,16 +19,15 @@ common-js:
 
   {% include head.html %}
 
-<body>
-
-  {% include nav.html %}
-
-  {{ content }}
-
-  {% include footer.html %}
-
-  {% include footer-scripts.html %}
-
-</body>
-
+  <body>
+  
+    {% include nav.html %}
+  
+    {{ content }}
+  
+    {% include footer.html %}
+  
+    {% include footer-scripts.html %}
+  
+  </body>
 </html>
