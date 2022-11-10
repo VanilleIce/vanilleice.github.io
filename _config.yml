@@ -8,11 +8,8 @@ title: "OsbornTV`s Wallpapers"
 # Your name to show in the footer
 author: "OsbornTV"
 
-#BaseURL
-baseurl: ""
-
 # Description
-# description: "thats my WebPage"
+description: "thats my WebPage"
 
 ###############################################
 # --- List of links in the navigation bar --- #
