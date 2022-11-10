@@ -1,7 +1,4 @@
 {
-  "name": "OsbornTV Wallpaper",
-  "short_name": "OsbornTV Wallpaper",
-  "description": "Wallpaper Site",
   "icons": [
     {
       "src": "favicon.ico",
@@ -23,11 +20,5 @@
       "sizes": "180x180",
       "type": "image/png"
     }
-  ],
-  "start_url": "de",
-  "scope": "/",
-  "background_color": "#e8e2d3",
-  "display": "standalone",
-  "orientation": "any",
-  "theme_color": "#f18420"
+  ]
 }
