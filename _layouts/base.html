@@ -26,16 +26,7 @@ common-js:
 
 <body>
 
-  <div id="preloader">
-    <div class="load">
-      <hr/>
-      <hr/>
-      <hr/>
-      <hr/>
-    </div>
-  </div>
-  
-  <div class="layout">
+  {% include preloader-loader.html %}
 
   {% include nav.html %}
 
@@ -44,9 +35,6 @@ common-js:
   {% include footer.html %}
 
   {% include footer-scripts.html %}
-  
-
-</div>
 
 </body>
 </html>
