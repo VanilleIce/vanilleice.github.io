@@ -22,8 +22,6 @@ common-js:
 {% include head.html %}
 
 <body>
-  
-  {% include landing-page.html %}
   <div id="preloader">
     <div class="load">
       <hr/>
@@ -32,14 +30,16 @@ common-js:
       <hr/>
     </div>
 </div>
+  {% include landing-page.html %}
 
   {% include nav.html %}
+<div class="layout">
 
   {{ content }}
 
-  {% include footer.html %}
+</div>
+{% include footer.html %}
 
-  {% include footer-scripts.html %}
-
+{% include footer-scripts.html %}
 </body>
 </html>

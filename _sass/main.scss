@@ -13,9 +13,11 @@ $font-size-h1: 2rem !default;
 $font-weight-strong: 600;
 $text-color: #fff !default;
 $bg-color: rgba(43, 45, 47, 1);
-$card-bg-color: linear-gradient(145deg,
-    rgba(115, 115, 115, 0.15) 15%,
-    rgba(43, 45, 47, 1) 80%);
+$card-bg-color: linear-gradient(
+  145deg,
+  rgba(115, 115, 115, 0.15) 15%,
+  rgba(43, 45, 47, 1) 80%
+);
 $primary-color: #ff073a;
 
 // General
@@ -103,17 +105,21 @@ a {
 }
 
 .neumorphism-button {
-  background: linear-gradient(145deg,
-      rgba(100, 100, 105, 0.15) 15%,
-      rgba(33, 33, 33, 0.4) 80%);
+  background: linear-gradient(
+    145deg,
+    rgba(100, 100, 105, 0.15) 15%,
+    rgba(33, 33, 33, 0.4) 80%
+  );
   box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
     4px 4px 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 @mixin neumorphism-button-pressed {
-  background: linear-gradient(150deg,
-      rgba(20, 20, 20, 0.4) 10%,
-      rgba(115, 115, 115, 0.15) 80%);
+  background: linear-gradient(
+    150deg,
+    rgba(20, 20, 20, 0.4) 10%,
+    rgba(115, 115, 115, 0.15) 80%
+  );
   box-shadow: 1px 1px 2px 0 rgba(210, 210, 210, 0.4),
     -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4),
     inset -1px -2px 2px rgba(210, 210, 210, 0.4);
@@ -181,20 +187,16 @@ a {
   }
 
   @keyframes spin {
-
     0%,
     100% {
       transform: translate(0);
     }
-
     25% {
       transform: translate(160%);
     }
-
     50% {
       transform: translate(160%, 160%);
     }
-
     75% {
       transform: translate(0, 160%);
     }
@@ -304,7 +306,6 @@ a {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
         colorEmail 1s linear forwards;
     }
-
     .social-svg {
       fill: #d44638;
     }
@@ -315,7 +316,6 @@ a {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
         colorTelegram 1s linear forwards;
     }
-
     .social-svg {
       fill: #2aabee;
     }
@@ -326,7 +326,6 @@ a {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
         colorLinkedIn 1s linear forwards;
     }
-
     .social-svg {
       fill: #0072b1;
     }
@@ -337,7 +336,6 @@ a {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
         colorStackOverflow 1s linear forwards;
     }
-
     .social-svg {
       fill: #f47f24;
     }
@@ -348,7 +346,6 @@ a {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
         colorTwitter 1s linear forwards;
     }
-
     .social-svg {
       fill: #1da1f2;
     }
@@ -359,7 +356,6 @@ a {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
         colorInstagram 1s linear forwards;
     }
-
     .social-svg {
       fill: #e1306c;
     }
@@ -370,7 +366,6 @@ a {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
         colorFacebook 1s linear forwards;
     }
-
     .social-svg {
       fill: #4267b2;
     }
@@ -389,7 +384,6 @@ a {
       stroke-dasharray: 510;
       stroke-width: 0.5rem;
     }
-
     to {
       stroke: $text-color;
       stroke-dasharray: 83;
@@ -515,11 +509,13 @@ a {
   }
 
   .timeline:before {
-    background: linear-gradient(to bottom,
-        #f3f3f3 0%,
-        #d5d5d5 8%,
-        #d5d5d5 92%,
-        #f3f3f3 100%);
+    background: linear-gradient(
+      to bottom,
+      #f3f3f3 0%,
+      #d5d5d5 8%,
+      #d5d5d5 92%,
+      #f3f3f3 100%
+    );
     content: " ";
     height: 100%;
     left: 50%;
@@ -816,24 +812,24 @@ a {
       width: 0;
     }
 
-    input[type="radio"]:checked+.filter-button {
+    input[type="radio"]:checked + .filter-button {
       color: $primary-color;
       font-weight: $font-weight-strong;
       @include neumorphism-button-pressed();
     }
 
-    input[id="language"]:checked~div[skill-type="framework"],
-    input[id="language"]:checked~div[skill-type="tool"] {
+    input[id="language"]:checked ~ div[skill-type="framework"],
+    input[id="language"]:checked ~ div[skill-type="tool"] {
       @include filter-out;
     }
 
-    input[id="framework"]:checked~div[skill-type="language"],
-    input[id="framework"]:checked~div[skill-type="tool"] {
+    input[id="framework"]:checked ~ div[skill-type="language"],
+    input[id="framework"]:checked ~ div[skill-type="tool"] {
       @include filter-out;
     }
 
-    input[id="tool"]:checked~div[skill-type="language"],
-    input[id="tool"]:checked~div[skill-type="framework"] {
+    input[id="tool"]:checked ~ div[skill-type="language"],
+    input[id="tool"]:checked ~ div[skill-type="framework"] {
       @include filter-out;
     }
   }
@@ -907,8 +903,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-    >* {
+    > * {
       width: 44%;
     }
   }
@@ -952,7 +947,7 @@ a {
   }
 
   .projects-wrapper {
-    >* {
+    > * {
       width: 45%;
     }
   }
@@ -982,7 +977,7 @@ a {
   }
 
   .projects-wrapper {
-    >* {
+    > * {
       width: 46%;
     }
   }
@@ -994,11 +989,9 @@ a {
   0% {
     bottom: 0;
   }
-
   50% {
     bottom: 0.5rem;
   }
-
   100% {
     bottom: 0;
   }

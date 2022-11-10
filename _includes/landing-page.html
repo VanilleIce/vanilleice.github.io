@@ -2,7 +2,7 @@
   <div class="landing-title">
     <img src="https://media.giphy.com/media/xTiIzJSKB4l7xTouE8/giphy.gif">
     <h1>Hi, I&#39;m
-      <span class="highlight-title">{{site.username}}</span>,
+      <span class="highlight-title">{{ site.author }}</span>,
     </h1>
     <h1>
       <span id="txt-rotate" data-period="1000" data-rotate='["{{site.typing_text}}", "scroll down for more."]'>
@@ -10,9 +10,9 @@
     </h1>
     <div class="landing-icons">
 
-      {% if site.github_username != null %}
+      {% if site.author != null %}
       <a class="social-link github" aria-label="My GitHub" target="_blank" rel="noreferrer"
-        href="https://github.com/{{site.github_username}}">
+        href="https://github.com/{{site.author}}">
         <svg viewBox="0 0 200 200" class="circle">
           <circle cx="100" cy="100" r="80" />
         </svg>
