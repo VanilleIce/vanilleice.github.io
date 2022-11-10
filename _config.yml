@@ -20,7 +20,7 @@ baseurl: ""
 
 navbar-links:
   Posts: "posts"
-  Wallpaper: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960&p=1&numperpage=30"  # geht nur für PC :(
+  Wallpaper: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960&p=1&numperpage=30"  #geht nur für PC :( geht nich anders
   FAQ: "faq"  
   About: 
   - About: "aboutme"
