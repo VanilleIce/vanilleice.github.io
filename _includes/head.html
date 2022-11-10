@@ -29,8 +29,6 @@
     {%- endif -%}
     {% endcapture %}
 
-  <title>{{ title }}</title>
-
   {% if site.author %}
   <meta name="author" content="{{ site.author }}">
   {% endif %}
@@ -81,10 +79,6 @@
     {% endif %}
   {%- endcapture -%}
   {%- assign img=img | strip -%}
-
-  {% if page.comments and site.staticman.repository and site.staticman.branch %}
-  <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
-  {% endif %}
 
   {% if page.head-extra %}
     {% for file in page.head-extra %}
