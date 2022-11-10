@@ -12,13 +12,16 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
   <link rel="manifest" href="/assets/favicon/site.webmanifest">
  <!-- <meta name="theme-color" content="#ffffff"> -->
-
-  <link rel="stylesheet" href="/assets/css/vendors.min.css">
+  
+  <link rel="stylesheet" href="/assets/css/main.min.css | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="/assets/css/vendors.min.css | prepend: site.baseurl }}">
 
   <script src="/assets/js/vendors.min.js"></script>
   <script src="/assets/js/app.min.js}"></script>
 
   <noscript>Please enable JavaScript to view this Site</noscript>
+
+  {% include preloader-loader.html %}
 
   {% capture title %}
     {%- if page.share-title -%}
@@ -80,6 +83,10 @@
     {% endif %}
   {%- endcapture -%}
   {%- assign img=img | strip -%}
+
+  {% if site.staticman.repository and site.staticman.branch %}
+  <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
+  {% endif %}
 
   {% if page.head-extra %}
     {% for file in page.head-extra %}
