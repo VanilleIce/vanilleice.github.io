@@ -3,51 +3,97 @@ layout: page
 title: Impressum
 ---
 
-OsbornTV Wallpaper Site
-
-Eingetragen beim Amtsgericht
-
-Handelsregisternummer:
-
-Geschäftsführer:
-
+Impressum
+Angaben gemäß § 5 TMG:
+OsbornTV Wallpaper Site UG
+Creator
 OsbornTV
 
-Adresse
+Postanschrift:
+Nirgendswo 1
+1 Nirgendswo
 
-(auf anfrage)
+Kontakt:
+Telefon: 0xxxxxxxxxxx
+Telefax: 0xxxxxxxxxxx
+E-Mail: Nirgendswo@nirgendwo
 
-FAX
+Eingetragen am
+Nirgends
+0xxxxxxxx
 
-(auf anfrage)
+Umsatzsteuer-Identifikationsnummer
+xxxxxxxxxxx
 
-Kontakt - E-MAIL
+Wirtschafts-Identifikationsnummer
+xxxxxxxxxxxx
 
-kontakt@wallpaper.osborntv.de
+Zuständige Kammer:
+xxxxx
 
-ONLINE
+Zugelassen für:
+xxxxx
 
-https://osborntv.github.io
+Berufsrechtlichen Regelungen:
+xxxxx
 
-UMSATZSTEUERIDENTIFIKATIONSNUMMER
+Die Berufshaftpflichtversicherung wurde abgeschlossen bei:
+xxxxxx
 
-INHALTLICH VERANTWORTLICHE GEMÄSS § 55 ABS. 2 RST
-OsbornTV Wallpaper Site
+Geltungsbereich des Versicherungsschutzes:
+xxxxx
 
-Adresse
-(auf anfrage)
+Hinweise zur Website
+Urheberrechtliche Hinweise
+xxx
 
-FAX
-(auf anfrage)
+Verantwortlich für journalistisch-redaktionelle Inhalte ist:
+xxxx
 
-Deutschland
+Information gemäß § 36 VSBG
+Gemäß § 36 VSBG (Verbraucherstreitbeilegungsgesetz – Gesetz über die alternative Streitbeilegung in Verbrauchersachen) erklärt der Betreiber dieser Website:
 
-Kontakt - E-MAIL
+Wir sind verpflichtet, an Streitbeilegungsverfahren bei der folgenden Verbraucherschlichtungsstelle teilzunehmen:
 
-kontakt@wallpaper.osborntv.de
+https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home.chooseLanguage
 
-Wir nutzen Secure Sockets Layer (SSL) als Sicherheitsprotokoll für eine sichere Verbindung für unsere Kunden. Das ist sichtbar an dem „https“ und dem Sicherheitsschloss im Browser.
+Hinweis
+Die Plattform der EU zur außergerichtlichen Streitbeilegung finden Sie online unter: https://ec.europa.eu/consumers/odr/
 
-Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie hier finden [EC Europa](https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home.chooseLanguage)
+Das Impressum wurde mit dem Impressums-Generator der activeMind AG erstellt.
 
-Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind wir nicht verpflichtet und nicht bereit.
+<h1>Impressum</h1>
+<h2>Angaben gemäß § 5 TMG:</h2>
+<p>OsbornTV Wallpaper Site UG<br>Creator<br>OsbornTV</p>
+<h3>Postanschrift:</h3>
+<p>Nirgendswo 1<br>1 Nirgendswo<br></p>
+<h3>Kontakt:</h3>
+<p>Telefon: 0xxxxxxxxxxx<br>Telefax: 0xxxxxxxxxxx<br>E-Mail: Nirgendswo@nirgendwo</p>
+<p></p><h3>Eingetragen am</h3>
+<p>Nirgends<br>0xxxxxxxx<br></p>
+<p></p><h3>Umsatzsteuer-Identifikationsnummer</h3>
+<p>xxxxxxxxxxx<br></p>
+<p></p><h3>Wirtschafts-Identifikationsnummer</h3>
+<p>xxxxxxxxxxxx<br></p>
+<p></p><h3>Zuständige Kammer:</h3>
+<p>xxxxx<br></p>
+<p></p><h3>Zugelassen für:</h3>
+<p>xxxxx<br></p>
+<p></p><h3>Berufsrechtlichen Regelungen:</h3>
+<p>xxxxx<br></p>
+<p></p><h3>Die Berufshaftpflichtversicherung wurde abgeschlossen bei:</h3>
+<p>xxxxxx</p>
+<h3>Geltungsbereich des Versicherungsschutzes:</h3>
+<p>xxxxx<br></p>
+<p></p><h2>Hinweise zur Website</h2>
+<p></p><h3>Urheberrechtliche Hinweise</h3>
+<p>xxx<br></p>
+<p></p><h3>Verantwortlich für journalistisch-redaktionelle Inhalte ist:</h3>
+<p>xxxx<br></p>
+<p></p><h2>Information gemäß § 36 VSBG</h2>
+<p>Gemäß § 36 VSBG (Verbraucherstreitbeilegungsgesetz – Gesetz über die alternative Streitbeilegung in Verbrauchersachen) erklärt der Betreiber dieser Website:</p>
+<p>Wir sind verpflichtet, an Streitbeilegungsverfahren bei der folgenden Verbraucherschlichtungsstelle teilzunehmen:</p>
+<p>https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home.chooseLanguage</p>
+<p></p><h2>Hinweis</h2>
+<p>Die Plattform der EU zur außergerichtlichen Streitbeilegung finden Sie online unter: <a href="https://ec.europa.eu/consumers/odr/">https://ec.europa.eu/consumers/odr/</a></p>
+<p></p><p><em>Das Impressum wurde mit dem <a href="https://www.activemind.de/datenschutz/impressums-generator/">Impressums-Generator der activeMind AG</a> erstellt.</em></p>
