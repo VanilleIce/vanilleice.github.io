@@ -3,13 +3,13 @@
 ############################
 
 # Name of website
-title: "OsbornTV`s Wallpapers"
-
-# Your name to show in the footer
-author: "OsbornTV"
+title: OsbornTV`s Wallpapers
 
 # Description
 # description: "thats my WebPage"
+
+# Your name to show in the footer
+author: OsbornTV
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -31,14 +31,15 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-# avatar: "thumbnail.png" #"/assets/img/avatar-icon.png"
+# avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 # round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-# title-img: "thumbnail.png" #"/path/to/image"
+# title-img: /path/to/image
+
 
 #####################################
 # --- Footer social media links --- #
@@ -52,12 +53,10 @@ navbar-links:
 #  github: OsbornTV
 #  youtube: OsbornTV
 #  steam: OsbornTV
-#  twitch: yourname
-#  discord: invite/invite_code or users/userid 
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-# rss-description: "This website is a virtual proof that I'm awesome"
+# rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
@@ -69,26 +68,25 @@ navbar-links:
 #  facebook: true
 #  linkedin: true
 #  vk: false
-#  steam: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-# url-pretty: "MyWebsite.com" #edit für Patreon ?
+url-pretty: "OsbornTV.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 # excerpt_length: 50
 
 # Whether or not to show an excerpt for every blog post in the feed page
-# feed_show_excerpt: false
+# feed_show_excerpt: true
 
 # Whether or not to show a list of tags below each post preview in the feed page
-# feed_show_tags: false
+# feed_show_tags: true
 
 # Add a search button to the navbar
-post_search: false
+# post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-# edit_page_button: false
+edit_page_button: false
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
@@ -96,7 +94,7 @@ post_search: false
 navbar-var-length: true
 
 # The keywords to associate with your website, for SEO purposes
-# keywords: "my,list,of,keywords"
+#keywords: "my,list,of,keywords"
 
 ######################################
 # --- Colours / background image --- #
@@ -104,8 +102,8 @@ navbar-var-length: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA" # navbar-col: "#dd4242"
-navbar-text-col: "#404040" # navbar-text-col: "#FFFFFF"
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#404040"
@@ -139,16 +137,16 @@ footer-hover-col: "#0085A1"
 #################################
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-# gtag: ""
+#gtag: ""
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-# google_analytics: ""
+#google_analytics: ""
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
-# cloudflare_analytics: ""
+#cloudflare_analytics: ""
 
 # Google Tag Manager ID
-# gtm: ""
+#gtm: ""
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
@@ -163,19 +161,19 @@ footer-hover-col: "#0085A1"
 ####################
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-# disqus: ""
+#disqus: ""
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
-# fb_comment_id: ""
+#fb_comment_id: ""
 
 # To use CommentBox, sign up for a Project ID on https://commentbox.io
-# commentbox: "" # Project ID, e.g. "5694267682979840-proj"
+#commentbox: "" # Project ID, e.g. "5694267682979840-proj"
 
 # To use Utterances comments: (0) uncomment the following section, (1) fill in
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
-# utterances:
+#utterances:
 #  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
 #  issue-term: title   # Mapping between blog posts and GitHub issues
 #  theme: github-light # Utterances theme
@@ -187,11 +185,11 @@ footer-hover-col: "#0085A1"
 # https://github.com/eduardoboucas/staticman/ and https://staticman.net/ for further 
 # instructions. For any support with staticman please direct questions to staticman and 
 # not to BeautifulJekyll.
-# staticman:
+#staticman:
 #  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
 #  branch     : main # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
 #  endpoint   : # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
-#  reCaptcha  : # (optional, set these parameters in `staticman.yml` as well) 
+#  reCaptcha:   # (optional, set these parameters in `staticman.yml` as well) 
 #    siteKey  : # You need to apply for a site key on Google
 #    secret   : # Encrypt your password by going to https://<your-own-api>/v3/encrypt/<your-site-secret>
 
@@ -200,7 +198,7 @@ footer-hover-col: "#0085A1"
 # (2) Install the giscus app in your repository (details at https://giscus.app),
 # (3) Fill in *all* the parameters below 
 # See more details about giscus and each of the following parameters at https://giscus.app
-# giscus:
+#giscus:
 #  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
 #  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
 #  repository-id: # ID of your repository, retrieve this info from https://giscus.app
@@ -216,10 +214,10 @@ footer-hover-col: "#0085A1"
 ################
 
 # Ruby Date Format to show dates of posts
-date_format: "%-d %B %Y"
+date_format: "%B %-d, %Y"
 
 # Facebook App ID
-# fb_app_id: ""
+#fb_app_id: ""
 
 #################################################################################
 # --- You don't need to touch anything below here (but you can if you want) --- #
@@ -251,16 +249,18 @@ defaults:
     values:
       layout: "page"
 
-# Use tags index page and make tags on each post clickable
-# link-tags: false
-
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
   - CNAME
   - Gemfile
+  - Gemfile.lock
+  - LICENSE
   - README.md
+  - screenshot.png
+  - docs/
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+

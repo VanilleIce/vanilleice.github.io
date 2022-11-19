@@ -9,9 +9,9 @@ var BeautifulJekyllJS = {
     setTimeout(BeautifulJekyllJS.initNavbar, 10);
 
     // Shorten the navbar after scrolling a little bit down
-    //$(window).scroll(function() {
-    //    if ($(".navbar").offset().top > 50) {
-    //        $(".navbar").addClass("top-nav-short");
+    // $(window).scroll(function() {
+    //     if ($(".navbar").offset().top > 50) {
+    //         $(".navbar").addClass("top-nav-short");
     //    } else {
     //        $(".navbar").removeClass("top-nav-short");
     //    }

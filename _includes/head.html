@@ -1,9 +1,6 @@
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <title>OsbornTV`s Wallpaper</title>
 
   <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -18,10 +15,29 @@
     {%- else -%}
       {{ site.title | strip_html | xml_escape }}
     {%- endif -%}
-    {% endcapture %}
+  {% endcapture %}
+
+  {% capture description %}
+    {%- if page.share-description -%}
+      {{ page.share-description | strip_html | xml_escape }}
+    {%- elsif page.subtitle -%}
+      {{ page.subtitle | strip_html | xml_escape }}
+    {%- else -%}
+      {%- assign excerpt_length = site.excerpt_length | default: 50 -%}
+      {{ page.content | strip_html | xml_escape | truncatewords: excerpt_length | strip }}
+    {%- endif -%}
+  {% endcapture %}
+
+  <title>{{ title }}</title>
 
   {% if site.author %}
-    <meta name="author" content="{{ site.author }}">
+  <meta name="author" content="{{ site.author }}">
+  {% endif %}
+
+  <meta name="description" content="{{ description }}">
+
+  {% if site.keywords %}
+  <meta name="keywords" content="{{ site.keywords }}">
   {% endif %}
 
   {% if layout.common-ext-css %}
@@ -58,27 +74,6 @@
   <meta property="og:site_name" content="{{ site.title }}">
   {% endif %}
 
-  {%- capture img -%}
-    {%- if page.share-img -%}
-      {{ page.share-img }}
-    {%- elsif page.cover-img -%}
-      {%- if page.cover-img.first -%}
-        {{ page.cover-img[0].first.first }}
-      {%- else -%}
-        {{ page.cover-img }}
-      {%- endif -%}
-    {%- elsif page.thumbnail-img -%}
-      {{ page.thumbnail-img }}
-    {%- elsif site.avatar -%}
-      {{ site.avatar }}
-    {% endif %}
-  {%- endcapture -%}
-  {%- assign img=img | strip -%}
-
-  {% if site.staticman.repository and site.staticman.branch %}
-  <link rel="stylesheet" href="{{ '/assets/css/staticman.css' | relative_url }}">
-  {% endif %}
-
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
 
@@ -97,7 +92,6 @@
   <meta property="og:url" content="{{ page.url | absolute_url | strip_index }}">
   <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
   {% endif %}
-
 
   {% if page.head-extra %}
     {% for file in page.head-extra %}
