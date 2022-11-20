@@ -225,7 +225,6 @@ date_format: "%B %-d, %Y"
 
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Berlin"
-time: "%h:%m:%s"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
