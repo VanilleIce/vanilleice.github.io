@@ -16,7 +16,21 @@
         {{ site.author }}
         &nbsp;&bull;&nbsp;
       {% endif %}
-      {{ site.time | date: '%Y' }}
+
+      {{ site.timezone | date: '%Y' }}
+
+      &nbsp;&bull;&nbsp;
+      <span class="imprint">
+        <a href="impressum.md">Imprint</a>
+      </span>
+      &nbsp;&bull;&nbsp;
+      <span class="contact">
+        <a href="contact.html">Contact</a>
+      </span>
+      &nbsp;&bull;&nbsp;
+      <span class="privacy">
+        <a href="datenschutz.md">Privacy</a>
+      </span>
 
       {% if site.url-pretty %}
         &nbsp;&bull;&nbsp;
@@ -31,10 +45,12 @@
        {% endif%}
       </p>
 
-      {% unless site.remove-ads %}<p class="theme-by text-muted">
+      {% unless site.remove-ads %}
+      <p class="theme-by text-muted">
         Powered by
         <a href="https://github.com/">GitHub</a>
-      </p>{% endunless %}
+      </p>
+      {% endunless %}
       </div>
     </div>
   </div>

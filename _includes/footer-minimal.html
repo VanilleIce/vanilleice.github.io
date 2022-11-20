@@ -7,7 +7,7 @@
     {% if page.date %}
       {{ page.date }}
     {% else %}
-      {{ site.time | date: '%Y' }}
+      {{ site.timezone | date: '%Y' }}
     {% endif %}
 
     {% if site.url-pretty %}
