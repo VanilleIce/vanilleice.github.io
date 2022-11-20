@@ -1,7 +1,14 @@
-## ALLES VON NEUEM BEGINNEN
-
-## Erübrigt sich warscheinlich
-
 # alle seiten kontrollieren, ggf. weiter erstellen
 # scripts prüfen
-# 
+# <head>
+  <!-- our project just needs Font Awesome Solid + Brands -->
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+</head>
+<body>
+  <i class="fa-solid fa-user"></i>
+  <!-- uses solid style -->
+  <i class="fa-brands fa-github-square"></i>
+  <!-- uses brand style -->
+</body>
