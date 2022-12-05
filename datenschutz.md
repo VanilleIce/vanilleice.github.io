@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Datenschutzerklärung
+desciption: Datenschutzerklärung
 ---
 Datenschutzerklärung
 
