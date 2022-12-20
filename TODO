@@ -1,6 +1,9 @@
-# alle seiten kontrollieren, ggf. weiter erstellen
+# alle seiten kontrollieren, ggf. weitere erstellen
 # scripts prüfen
-!* Fantawsome einbindung
+# seiten weiterleitung richtig machen? (unterstüzung durch Greni? oder Intranetz)
+# impressum datenschutz contact faq berichtigen löschen was nich
+
+!* Fantawsome how to
 !* <head>
 !*  <!-- our project just needs Font Awesome Solid + Brands -->
 !*  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -16,3 +19,4 @@
 !*
 
 !*Credits fontmeme.com
+!*Licence write
