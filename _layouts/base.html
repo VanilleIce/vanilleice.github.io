@@ -19,11 +19,9 @@ common-js:
 ---
 
 <!DOCTYPE html>
-<html lang="{{ page.language | default: site.language | default: 'de' }}">
-
+<html lang="de">
 <!-- HTML-Code -->
 <img alt="lade mich doch" src="/assets/img/icon_download.png" id="loadingGif" style="display: block;">
-
 <!-- JavaScript-Code -->
 <script>
   function hideLoadingGif() {
@@ -32,7 +30,6 @@ common-js:
 
   window.onload = hideLoadingGif;
 </script>
-
 {% include head.html %}
 
 <body>
