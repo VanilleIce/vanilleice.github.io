@@ -8,5 +8,4 @@ tags: [first, wallpaper, nice]
 
 Mein erstes Wallpaper has arrived
 
-[Steam][def]
-[def]: <https://steamcommunity.com/sharedfiles/filedetails/?id=2265826330>
+[Steam] <https://steamcommunity.com/sharedfiles/filedetails/?id=2265826330> "First Wallpaper"
