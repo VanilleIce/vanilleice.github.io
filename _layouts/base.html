@@ -19,8 +19,7 @@ common-js:
 ---
 
 <!DOCTYPE html>
-<html lang="de">
-
+<html lang="{{ page.language | default: site.language | default: 'de' }}">
 {% include head.html %}
 
 <body>
