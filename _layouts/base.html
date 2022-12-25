@@ -20,23 +20,10 @@ common-js:
 
 <!DOCTYPE html>
 <html lang="de">
-<!-- HTML-Code -->
-<img alt="lade mich doch" src="/assets/img/icon_download.png" id="loadingGif" style="display: block;">
-<!-- JavaScript-Code -->
-<script>
-  function hideLoadingGif() {
-    document.getElementById("loadingGif").style.display = "none";
-  }
 
-  window.onload = hideLoadingGif;
-</script>
 {% include head.html %}
 
 <body>
-  <!-- Inhalt, der angezeigt wird, wenn JavaScript deaktiviert ist -->
-  <noscript>
-    <p>Bitte aktivieren Sie JavaScript, um diese Seite vollständig anzeigen zu können.</p>
-  </noscript>
 
   {% include nav.html %}
 
