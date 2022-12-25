@@ -111,3 +111,25 @@
 </body>
 
 </html>
+
+<script>
+    // Funktion, die den Inhalt eines Elements ändert
+    function changeText(elementId, newText) {
+      document.getElementById(elementId).innerHTML = newText;
+    }
+  
+    // Funktion, die beim Klicken auf einen Button aufgerufen wird
+    function buttonClick() {
+      // Ändert den Inhalt des Elements mit der ID "welcomeMessage"
+      changeText("welcomeMessage", "Danke, dass du auf unsere Website geklickt hast!");
+    }
+  
+    // Funktion, die beim Laden der Seite aufgerufen wird
+    function onLoad() {
+      // Fügt einen Klick-Event-Handler zu dem Button mit der ID "myButton" hinzu
+      document.getElementById("myButton").addEventListener("click", buttonClick);
+    }
+  
+    // Ruft die onLoad-Funktion auf, wenn die Seite geladen wurde
+    window.onload = onLoad;
+  </script>
