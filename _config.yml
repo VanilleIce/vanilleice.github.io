@@ -18,6 +18,7 @@ author: OsbornTV
 navbar-links:
   Posts: "posts"
   Wallpaper: "steam://openurl/https://steamcommunity.com/id/OsbornTV/myworkshopfiles/?appid=431960&p=1&numperpage=30"  #geht nur für PC :( geht nich anders
+  Steam: "steam"
   Infos: 
   - FAQ: "faq" 
   - About: "aboutme"

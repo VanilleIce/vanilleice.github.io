@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meine Steam-Website</title>
+    <style>
+        /* Allgemeine Stile */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Kopfzeile */
+        header {
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        header h1 {
+            color: white;
+            margin: 0;
+        }
+
+        header form {
+            display: flex;
+            align-items: center;
+        }
+
+        header input[type="text"] {
+            border: none;
+            padding: 10px;
+        }
+
+        header input[type="submit"] {
+            background-color: lightgreen;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        /* Navigationsleiste */
+        nav {
+            background-color: lightgray;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+        }
+
+        nav a {
+            color: black;
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: gray;
+            color: white;
+        }
+
+        /* Hauptteil */
+        main {
+            margin: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: lightgray;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meine Steam-Website</h1>
+        <form>
+            <input type="text" placeholder="Suche nach Spielen...">
+            <input type="submit" value="Suchen">
+        </form>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://store.steampowered.com/">Startseite</a></li>
+            <li><a href="https://store.steampowered.com/games/">Spiele</a></li>
+            <li><a href="https://store.steampowered.com/software/">Software</a></li>
+            <li><a href="https://store.steampowered.com/videos/">Videos</a></li>
+            <li><a href="https://store.steampowered.com/curators/">Kuratoren</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Willkommen auf meiner Steam-Website!</h2>
+        <p>Hier findest du alle deine Lieblingsspiele und -software auf Steam.</p>
+        <p>Schau dir unsere Auswahl an neuen und beliebten Spielen an:</p>
+        <ul>
+            <li><a href="https://store.steampowered.com/app/570/Dota_2/">Dota 2</a></li>
+            <li><a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/">Counter-Strike: Global
+                    Offensive</a></li>
+            <li><a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/">Grand Theft Auto V</a></li>
+        </ul>
+    </main>
+    <footer>
+        <p>Copyright 2021 Meine Steam-Website</p>
+    </footer>
+</body>
+
+</html>
