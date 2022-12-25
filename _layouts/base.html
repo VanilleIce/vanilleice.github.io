@@ -39,16 +39,15 @@ common-js:
   <!-- Inhalt, der angezeigt wird, wenn JavaScript deaktiviert ist -->
   <noscript>
     <p>Bitte aktivieren Sie JavaScript, um diese Seite vollständig anzeigen zu können.</p>
-
-    {% include nav.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
-
-    {% include footer-scripts.html %}
-
   </noscript>
+
+  {% include nav.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+
+  {% include footer-scripts.html %}
 
 </body>
 
