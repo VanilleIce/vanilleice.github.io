@@ -35,3 +35,9 @@
     <script src="{{ js | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+{% if terms_of_service %}
+  {% for tos in terms_of_service.md %}
+    <script src="https://github.com/OsbornTV/terms-of-service/blob/main/terms_of-service.md"></script>
+  {% endfor %}
+{% endif %}
