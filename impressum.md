@@ -36,4 +36,3 @@ title: Impressum
 <p>https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home.chooseLanguage</p>
 <p></p><h2>Hinweis</h2>
 <p>Die Plattform der EU zur außergerichtlichen Streitbeilegung finden Sie online unter: <a href="https://ec.europa.eu/consumers/odr/">https://ec.europa.eu/consumers/odr/</a></p>
-<p></p><p><em>Das Impressum wurde mit dem <a href="https://www.activemind.de/datenschutz/impressums-generator/">Impressums-Generator der activeMind AG</a> erstellt.</em></p>
