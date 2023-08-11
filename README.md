@@ -1,2 +1,4 @@
 Source for osy`s website built with hexo, using the next theme as a base.
 It's a big mess, kill it with fire!
+
+https://www.osborntv.github.io
