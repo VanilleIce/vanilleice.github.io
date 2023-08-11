@@ -1,5 +1,4 @@
-# OsbornTV`s WebPage
+Source for osy`s website built with hexo, using the next theme as a base.
+It's a big mess, kill it with fire!
 
-## Nice Webpage
-
-Link auf der Rechten oberen Seite
+https://osborntv.github.io/
