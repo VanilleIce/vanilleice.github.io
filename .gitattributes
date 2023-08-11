@@ -1,2 +1,40 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+# Web Files
+*.html text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+
+# Jekyll related files
+*.yml text eol=lf
+
+# Git related files
+.gittattributes text eol=lf
+.gitignore text eol=lf
+.gitkeep text eol=lf
+
+# Ruby files
+*.rb text eol=lf
+Gemfile text eol=lf
+Gemfile.lock text eol=lf
+
+# Github specific fies
+LICENCE text eol=lf
+
+# Docker specific files
+Dockerfile text eol=lf
+
+# VSCode files
+*.json text eol=lf
+
+# General multimedia files
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.png binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.ogg binary
+*.flv binary
