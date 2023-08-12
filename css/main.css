@@ -164,13 +164,14 @@ template {
   background: #262a30;
   color: #fff;
 }
+/* Hintergrund */
 body {
   position: relative;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 2;
   color: #555;
-  background: #171717 url("https://i.imgur.com/wR86Atk.png") no-repeat center center fixed; 
+  background: #171717 url("../img/background.jpg") no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -742,14 +743,14 @@ pre .javascript .function {
 .page-home .post-type-quote blockquote::before,
 .page-post-detail .post-type-quote blockquote::before {
   top: -20px;
-  background-image: url("../images/quote-l.svg");
+  background-image: url("../img/quote-l.svg");
   border-top: 1px solid #ccc;
 }
 .blockquote-center::after,
 .page-home .post-type-quote blockquote::after,
 .page-post-detail .post-type-quote blockquote::after {
   bottom: -20px;
-  background-image: url("../images/quote-r.svg");
+  background-image: url("../img/quote-r.svg");
   border-bottom: 1px solid #ccc;
   background-position: 100% 8px;
 }
