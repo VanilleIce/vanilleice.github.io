@@ -171,7 +171,7 @@ body {
   font-size: 12px;
   line-height: 2;
   color: #555;
-  background: #171717 url("https://i.imgur.com/2YvNsGp.jpeg") no-repeat center center fixed; 
+  background: #171717 url("/img/background.jpg") no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
