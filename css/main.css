@@ -3227,22 +3227,3 @@ details > b {
 .overlay {
   pointer-events: none; 
 }
-
-/*     submenu navigation links      */
-nav .submenu { 
-  visibility: hidden;  
-  height: 0;
-  z-index: 1000; 
-}
-nav .submenu li { 
-  display: block; 
-  width: 15em;
-}
- 
-/*     Show the submenu on hover, focus     */
-nav li:hover  .submenu,
-nav li:active  .submenu, 
-nav li:focus  .submenu { 
-  visibility: visible;
-  height: auto;
-}
