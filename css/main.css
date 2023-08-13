@@ -3220,3 +3220,37 @@ details > p > i {
 details > b {
   color: #d1d1d2;
 }
+
+.no-click {
+  pointer-events: none;
+}
+/*     submenu navigation links      */
+nav .submenu { 
+  visibility: hidden;  
+  height: 0;
+  z-index: 1000; 
+}
+nav .submenu li { 
+  display: block; 
+  width: 15em;
+}
+ 
+/*     Show the submenu on hover, focus     */
+nav li:hover  .submenu,
+nav li:active  .submenu, 
+nav li:focus  .submenu { 
+  visibility: visible;
+  height: auto;
+}
+nav .subtitle::after {
+  position: absolute;
+  content: " ▶";
+  color: currentColor;
+  display: inline-block;
+  width: 2em;
+  right:0;
+}
+
+nav .subtitle:hover::after, nav .subtitle:focus::after{
+	content:" ▼";
+}
