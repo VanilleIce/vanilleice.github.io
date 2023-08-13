@@ -3224,6 +3224,10 @@ details > b {
 .no-click {
   pointer-events: none;
 }
+.overlay {
+  pointer-events: none; 
+}
+
 /*     submenu navigation links      */
 nav .submenu { 
   visibility: hidden;  
@@ -3241,8 +3245,4 @@ nav li:active  .submenu,
 nav li:focus  .submenu { 
   visibility: visible;
   height: auto;
-}
-
-.overlay {
-  pointer-events: none; 
 }

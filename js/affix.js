@@ -22,6 +22,7 @@
     this.options = $.extend({}, Affix.DEFAULTS, options);
 
     this.$target = $(this.options.target)
+      .on('submenu.bs.affix.data-api', $.proxy(this.checkPosition, this))
       .on('scroll.bs.affix.data-api', $.proxy(this.checkPosition, this))
       .on('click.bs.affix.data-api', $.proxy(this.checkPositionWithEventLoop, this));
 
@@ -164,20 +165,5 @@
       Plugin.call($spy, data);
     });
   });
-
-  // AFFIX SIDEBARE
-  // ==============
-  $('#sidebar-panel').on('affix.bs.affix', function () {
-    var size = $(window).width(); //get browser width
-    var divWidth = $(myContainer).width(); //get width of container
-    var margin = (size - divWidth) / 2; //get difference and divide by 2
-    var sidebarWidth = $('#sidebar-panel').width(); //get sidebar width
-
-    $("#sidebar-panel").css("left", margin);
-    $("#sidebar-panel2").css("width", sidebarWidth);
-  })
-    .on('affix-top.bs.affix', function () {
-      $("#sidebar-panel").css("left", "0px");
-    });
 
 }(jQuery));
