@@ -167,17 +167,17 @@
 
   // AFFIX SIDEBARE
   // ==============
-  $('#sidebar').on('affix.bs.affix', function () {
+  $('#sidebar-panel').on('affix.bs.affix', function () {
     var size = $(window).width(); //get browser width
     var divWidth = $(myContainer).width(); //get width of container
     var margin = (size - divWidth) / 2; //get difference and divide by 2
-    var sidebarWidth = $('#sidebar').width(); //get sidebar width
+    var sidebarWidth = $('#sidebar-panel').width(); //get sidebar width
 
-    $("#sidebar").css("right", margin);
-    $("#sidebar2").css("width", sidebarWidth);
+    $("#sidebar-panel").css("left", margin);
+    $("#sidebar-panel2").css("width", sidebarWidth);
   })
     .on('affix-top.bs.affix', function () {
-      $("#sidebar").css("right", "0px");
+      $("#sidebar-panel").css("left", "0px");
     });
 
 }(jQuery));
