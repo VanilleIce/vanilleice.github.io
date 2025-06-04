@@ -34,11 +34,10 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://ostborntv.github.io/">
 
-    <!-- Preload wichtiger Ressourcen -->
+    <!-- Preload wichtiger Ressourcen 
     <link rel="preload" href="css/main.css" as="style">
     <link rel="preload" href="lib/font-awesome/css/font-awesome.min.css" as="style">
-    <link rel="preload" href="lib/fancybox/jquery.fancybox.min.css" as="style">
-    <link rel="preload" href="/lib/jquery/jquery-3.6.0.min.js" as="script">
+    <link rel="preload" href="lib/fancybox/jquery.fancybox.min.css" as="style"> -->
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css" media="print" onload="this.media='all'">
@@ -137,14 +136,14 @@
                 <div class="site-brand-wrapper">
                     <div class="site-meta">
                         <div class="custom-logo-site-title">
-                            <a href="/" class="brand" rel="start" aria-label="Startseite">
+                            <a class="brand" rel="start" aria-label="Startseite">
                                 <span class="logo-line-before"><i></i></span>
                                 <span class="site-title">OstbornTV's Wallpapers</span>
                                 <span class="logo-line-after"><i></i></span>
                             </a>
                         </div>
                     </div>
-
+                    <!--Wenn's bild klein ist-->
                     <div class="site-nav-toggle">
                         <button aria-label="Navigationsleiste an/ausschalten" aria-expanded="false" aria-controls="menu">
                             <span class="btn-bar"></span>
@@ -154,10 +153,10 @@
                     </div>
                 </div>
 
-                <nav class="site-nav" aria-label="Hauptnavigation">
+                <nav class="site-nav">
                     <ul id="menu" class="menu">
                         <li class="menu-item menu-item-home menu-item-active">
-                            <a href="/" draggable="false" rel="section" aria-current="page">
+                            <a href="/" draggable="false" rel="section">
                                 <i class="menu-item-icon fa fa-fw fa-home"></i>
                                 <span class="menu-item-text">Home</span>
                             </a>
