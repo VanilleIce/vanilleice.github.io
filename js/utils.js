@@ -139,7 +139,10 @@ NexT.utils = NexT.$u = {
     // Supported Players. Extend this if you need more players.
     var SUPPORTED_PLAYERS = [
       'www.youtube.com',
-      'player.vimeo.com'
+      'player.vimeo.com',
+      'player.youku.com',
+      'music.163.com',
+      'www.tudou.com'
     ];
     var pattern = new RegExp(SUPPORTED_PLAYERS.join('|'));
 
