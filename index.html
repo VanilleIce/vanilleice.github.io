@@ -70,8 +70,8 @@
                 "dimmer": false
             },
             back2top: true,
-            back2top_sidebar: true,
-            fancybox: true,
+            back2top_sidebar: false,
+            fancybox: false,
             fastclick: false,
             lazyload: false,
             tabs: true,
@@ -144,13 +144,21 @@
                             </a>
                         </div>
                     </div>
+
+                    <div class="site-nav-toggle">
+                        <button aria-label="Navigationsleiste an/ausschalten" aria-expanded="false" aria-controls="menu">
+                            <span class="btn-bar"></span>
+                            <span class="btn-bar"></span>
+                            <span class="btn-bar"></span>
+                        </button>
+                    </div>
                 </div>
 
                 <nav class="site-nav" aria-label="Hauptnavigation">
                     <ul id="menu" class="menu">
                         <li class="menu-item menu-item-home menu-item-active">
                             <a href="/" draggable="false" rel="section" aria-current="page">
-                                <i class="menu-item-icon fa fa-fw fa-home" aria-hidden="true"></i>
+                                <i class="menu-item-icon fa fa-fw fa-home"></i>
                                 <span class="menu-item-text">Home</span>
                             </a>
                         </li>
@@ -159,7 +167,7 @@
                             <a href="https://sg-sternenkinder.github.io/" draggable="false" 
                                rel="noopener noreferrer" target="_blank" 
                                aria-label="SG-SternenKinder (öffnet in neuem Tab)">
-                                <i class="menu-item-icon fa fa-fw fa-globe" aria-hidden="true"></i>
+                                <i class="menu-item-icon fa fa-fw fa-globe"></i>
                                 <span class="menu-item-text">SG-SternenKinder</span>
                             </a>
                         </li>
@@ -188,7 +196,6 @@
                                                    draggable="false" aria-label="Wallpaper auf Steam ansehen">
                                                     <img src="/img/first_wall.jpg" alt="Mein erstes Wallpaper" width="800" height="450" loading="lazy" class="overlay">
                                                 </a>
-                                                <figcaption>Wallpaper #1</figcaption>
                                             </figure>
 
                                             <figure class="wallpaper-item">
@@ -196,7 +203,6 @@
                                                    draggable="false" aria-label="Wallpaper auf Steam ansehen">
                                                     <img src="/img/zwo_wall.png" alt="Mein zweites Wallpaper" width="800" height="450" loading="lazy" class="overlay">
                                                 </a>
-                                                <figcaption>Wallpaper #2</figcaption>
                                             </figure>
 
                                             <figure class="wallpaper-item">
@@ -204,7 +210,6 @@
                                                    draggable="false" aria-label="Wallpaper auf Steam ansehen">
                                                     <img src="/img/thirt_wall.jpg" alt="Mein drittes Wallpaper" width="800" height="450" loading="lazy" class="overlay">
                                                 </a>
-                                                <figcaption>Wallpaper #3</figcaption>
                                             </figure>
                                         </div>
 
@@ -257,44 +262,44 @@
                                     <div class="site-description motion-element" itemprop="description">Wallpaper Creator</div>
                                 </div>
 
-                                <nav class="links-of-author motion-element" aria-label="Profil Links">
+                                <nav class="links-of-author motion-element" title="Profil Links">
                                     <span class="links-of-author-item">
-                                        <a href="/faq" draggable="false" rel="noopener noreferrer" target="_self" aria-label="Häufig gestellte Fragen">
+                                        <a href="/faq" draggable="false" rel="noopener noreferrer" target="_self" title="Häufig gestellte Fragen">
                                             <i class="fa fa-fw fa-question-circle" aria-hidden="true"></i>
                                             <span>FAQ</span>
                                         </a>
                                     </span>
 
                                     <span class="links-of-author-item">
-                                        <a href="/aboutme" draggable="false" rel="noopener noreferrer" target="_self" aria-label="Über mich">
+                                        <a href="/aboutme" draggable="false" rel="noopener noreferrer" target="_self" title="Über mich">
                                             <i class="fa fa-fw fa-user" aria-hidden="true"></i>
                                             <span>Über mich</span>
                                         </a>
                                     </span>
 
                                     <span class="links-of-author-item">
-                                        <a href="/contact" draggable="false" rel="noopener noreferrer" target="_self" aria-label="Kontakt">
+                                        <a href="/contact" draggable="false" rel="noopener noreferrer" target="_self" title="Kontakt">
                                             <i class="fa fa-fw fa-envelope" aria-hidden="true"></i>
                                             <span>Kontakt</span>
                                         </a>
                                     </span>
 
                                     <span class="links-of-author-item">
-                                        <a href="mailto:ostborntv@hotmail.de" draggable="false" rel="noopener noreferrer" target="_blank" aria-label="E-Mail senden">
+                                        <a href="mailto:ostborntv@hotmail.de" draggable="false" rel="noopener noreferrer" target="_blank" title="E-Mail senden">
                                             <i class="fa fa-fw fa-envelope" aria-hidden="true"></i>
                                             <span>E-Mail</span>
                                         </a>
                                     </span>
 
                                     <span class="links-of-author-item">
-                                        <a href="https://discord.gg/7BkTCYNkZt" draggable="false" rel="noopener noreferrer" target="_blank" aria-label="Discord Server (öffnet in neuem Tab)">
-                                            <i class="fa fa-fw fa-discord" aria-hidden="true"></i>
+                                        <a href="https://discord.gg/7BkTCYNkZt" draggable="false" rel="noopener noreferrer" target="_blank" title="Discord Server (öffnet in neuem Tab)">
+                                            <i class="fab fa-fw fa-discord" aria-hidden="true"></i>
                                             <span>Discord</span>
                                         </a>
                                     </span>
 
                                     <span class="links-of-author-item">
-                                        <a href="https://sg-sternenkinder.github.io/" draggable="false" rel="noopener noreferrer" target="_blank" aria-label="SG-Sternenkinder (öffnet in neuem Tab)">
+                                        <a href="https://sg-sternenkinder.github.io/" draggable="false" rel="noopener noreferrer" target="_blank" title="SG-Sternenkinder (öffnet in neuem Tab)">
                                             <i class="fa fa-fw fa-globe" aria-hidden="true"></i>
                                             <span>SG-Sternenkinder</span>
                                         </a>
@@ -311,26 +316,26 @@
             <div class="footer-inner">
                 <div class="copyright">
                     &copy; <span itemprop="copyrightYear">2023</span>
-                    <span class="with-love" id="animate" aria-hidden="true"><i class="fa fa-user"></i></span>
+                    <span class="with-love" id="animate"><i class="fa fa-user"></i></span>
                     <span class="author" itemprop="copyrightHolder">OstbornTV</span>
                     
-                    <nav class="footer-links" aria-label="Rechtliche Links">
+                    <nav class="footer-links">
                         <span class="links-of-contact-item">
-                            <a href="/contact" rel="noopener" target="_self" aria-label="Kontakt">Kontakt</a>
+                            <a href="/contact" rel="noopener" target="_self">Kontakt</a>
                         </span>
                         <span class="links-of-datenschutz-item">
-                            <a href="/datenschutz" rel="noopener" target="_self" aria-label="Datenschutz">Datenschutz</a>
+                            <a href="/datenschutz" rel="noopener" target="_self">Datenschutz</a>
                         </span>
                         <span class="links-of-impressum-item">
-                            <a href="/impressum" rel="noopener" target="_self" aria-label="Impressum">Impressum</a>
+                            <a href="/impressum" rel="noopener" target="_self">Impressum</a>
                         </span>
                     </nav>
                 </div>
             </div>
         </footer>
 
-        <button class="back-to-top" aria-label="Nach oben scrollen">
-            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        <button class="back-to-top" title="Nach oben scrollen">
+            <i class="fa fa-arrow-up"></i>
         </button>
     </div>
 
