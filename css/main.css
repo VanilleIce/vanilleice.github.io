@@ -1110,28 +1110,42 @@ pre .javascript .function {
   bottom: -100px;
   right: 30px;
   z-index: 1050;
-  padding: 0 6px;
-  width: 24px;
+  padding: 12px 0; /* Mehr vertikales Padding für Höhe */
+  width: 48px; /* Größere Breite */
+  height: 48px; /* Gleiche Höhe für perfekten Kreis */
   background: #222;
-  font-size: 12px;
+  font-size: 16px; /* Größere Schrift */
   opacity: 0.6;
   color: #fff;
   cursor: pointer;
   text-align: center;
-  transition-property: bottom;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+  border-radius: 50%; /* Macht es perfekt rund */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out; /* Sanftere Transition für alle Eigenschaften */
 }
+
 .back-to-top.back-to-top-on {
   bottom: 30px;
 }
+
+.back-to-top:hover {
+  opacity: 1; /* Volle Deckkraft beim Hovern */
+  background: #333; /* Leichte Farbänderung beim Hovern */
+  transform: scale(1.05); /* Leichte Vergrößerung beim Hovern */
+}
+
 @media (max-width: 991px) {
   .back-to-top {
     opacity: 0.8;
     right: 20px;
+    width: 42px; /* Etwas kleiner auf Mobilgeräten */
+    height: 42px;
+    padding: 10px 0;
   }
 }
+
 .header {
   background: transparent;
 }
