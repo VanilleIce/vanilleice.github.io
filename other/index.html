@@ -2,20 +2,52 @@
 <html class="theme-next gemini use-motion" lang="de">
 
 <head>
-    <meta name="generator" content="Hexo 3.8.0">
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#222">
+    <meta name="generator" content="Hexo 7.1.1">
 
-    <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=5.9.0">
-    <link rel="stylesheet" href="/lib/fancybox/jquery.fancybox.min.css?v=3.5.7">
-    <link rel="stylesheet" href="/css/main.css?v=8.0.1">
-    <link rel="stylesheet" href="/css/language.css">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Offizielle Webseite von OstbornTV - Wallpaper Creator und Teil von Sternenkinder e.V.">
+    <meta name="keywords" content="OstbornTV, Wallpaper, Wallpaper Engine, Custom Wallpapers, Sternenkinder e.V., Steam Workshop">
+       
+    <meta property="og:image" content="https://ostborntv.github.io/img/background.jpg">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="450">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png?v=7.1.1">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png?v=7.1.1">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png?v=7.1.1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="OstbornTV Webpage">
+    <meta property="og:url" content="https://ostborntv.github.io/other">
+    <meta property="og:description" content="Offizielle Webseite von OstbornTV - Wallpaper Creator und Teil von Sternenkinder e.V.">
+    <meta property="og:site_name" content="OstbornTV Webpage">
+    <meta property="og:locale" content="de_DE">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="OstbornTV Webpage">
+    <meta name="twitter:description" content="Offizielle Webseite von OstbornTV - Wallpaper Creator und Teil von Sternenkinder e.V.">
+    <meta name="twitter:image" content="https://ostborntv.github.io/background.jpg">
+
+    <link rel="canonical" href="https://ostborntv.github.io/">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css?v=5.9.0">
+    <link rel="stylesheet" href="lib/fancybox/jquery.fancybox.min.css?v=3.5.7">
+    <link rel="stylesheet" href="css/language.css">
+
+    <link rel="icon" href="/img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+
+    <!-- Inline Critical CSS -->
+    <style>
+        /* Minimales Critical CSS für schnelleres Rendering */
+        .header, .main, .footer { opacity: 1 !important; }
+        .site-title, .logo-line-before, .logo-line-after { visibility: visible; }
+        .use-motion .motion-element { opacity: 1; }
+    </style>
 
     <script id="hexo.configurations">
         var NexT = window.NexT || {};
@@ -34,7 +66,7 @@
             back2top_sidebar: false,
             fancybox: false,
             fastclick: false,
-            lazyload: false,
+            lazyload: true,
             tabs: true,
             motion: {
                 "enable": true,
@@ -50,27 +82,13 @@
         };
     </script>
 
-    <meta name="description" content="OstbornTV`s Sites">
-    <meta name="keywords" content="Webpage, Webpage-Github, OstbornTV">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="OstbornTV`s Webpage">
-    <meta property="og:url" content="ostborntv.github.io/index.html">
-    <meta property="og:description" content="OstbornTV`s Sites">
-    <meta property="og:site_name" content="OstbornTV`s Webpage">
-    <meta property="og:locale" content="de">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="OstbornTV`s Sites">
-    <meta name="twitter:description" content="OstbornTV`s Sites">
-
-    <link rel="canonical" href="https://ostborntv.github.io/other/">
-
     <script id="page.configurations">
         CONFIG.page = {
             sidebar: "",
         };
     </script>
 
-    <title>OstbornTV`s Webpage</title>
+    <title>OstbornTV Webpage - Wallpaper Creator & Teil von Sternenkinder e.V.</title>
 
     <noscript>
         <style>
@@ -114,9 +132,8 @@
             <div class="header-inner">
                 <div class="site-brand-wrapper">
                     <div class="site-meta">
-
                         <div class="custom-logo-site-title">
-                            <a href="/" class="brand" rel="start">
+                            <a href="/" class="brand" rel="start" aria-label="Startseite">
                                 <span class="logo-line-before"><i></i></span>
                                 <span class="site-title">OstbornTV Webpage</span>
                                 <span class="logo-line-after"><i></i></span>
@@ -125,7 +142,7 @@
                     </div>
 
                     <div class="site-nav-toggle">
-                        <button aria-label="Navigationsleiste an/ausschalten">
+                        <button aria-label="Navigationsleiste an/ausschalten" aria-expanded="false" aria-controls="menu">
                             <span class="btn-bar"></span>
                             <span class="btn-bar"></span>
                             <span class="btn-bar"></span>
@@ -133,120 +150,115 @@
                     </div>
                 </div>
 
-                <nav class="site-nav">
+                <nav class="site-nav" aria-label="Hauptnavigation">
                     <ul id="menu" class="menu">
                         <li class="menu-item menu-item-home menu-item-active">
-                            <a href="/" draggable="false" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i>
-                                <br>Home</a>
+                            <a href="/" draggable="false" rel="section"><i class="menu-item-icon fa fa-fw fa-home" aria-hidden="true"></i><span class="menu-item-text">Home</span></a>
                         </li>
+
                         <li class="menu-item menu-item-info">
-                            <a href="" draggable="false" rel="section"><i class="menu-item-icon fa fa-fw fa-info"></i>
-                                <br>Info</a>
-                            <ul>
-                                <li class="menu-item menu-item-faq"><a href="/faq" draggable="false" rel="section"><i
-                                            class="menu-item-icon fa fa-fw fa-faq"></i>
-                                        <br>FAQ</a>
-                                </li>
-                                <li class="menu-item menu-item-aboutme"><a href="/aboutme" draggable="false"
-                                        rel="section"><i class="menu-item-icon fa fa-fw fa-aboutme"></i>
-                                        <br>About Me</a>
-                                </li>
-                                <li class="menu-item menu-item-contact"><a href="/contact" draggable="false"
-                                        rel="section"><i class="menu-item-icon fa fa-fw fa-contact"></i>
-                                        <br>Contact</a>
-                                </li>
-                                <li class="menu-item menu-item-datenschutz"><a href="/datenschutz" draggable="false"
-                                        rel="section"><i class="menu-item-icon fa fa-fw fa-datenschutz"></i>
-                                        <br>Datenschutz</a>
-                                </li>
-                                <li class="menu-item menu-item-impressum"><a href="/impressum" draggable="false"
-                                        rel="section"><i class="menu-item-icon fa fa-fw fa-impressum"></i>
-                                        <br>Impressum</a>
-                                </li>
+                            <a href="#" draggable="false" rel="section" aria-haspopup="true" aria-expanded="false"> <i class="menu-item-icon fa fa-fw fa-question-circle" aria-hidden="true"></i> <span class="menu-item-text">Info</span> </a>
+                            <ul class="sub-menu">
+                                <li class="menu-item menu-item-faq"> <a href="/faq" draggable="false" rel="section"> <i class="menu-item-icon fa fa-fw fa-question-circle" aria-hidden="true"></i> <span class="menu-item-text">FAQ</span></a> </li>
+                                <li class="menu-item menu-item-aboutme"> <a href="/aboutme" draggable="false" rel="section"> <i class="menu-item-icon fa fa-fw fa-user" aria-hidden="true"></i> <span class="menu-item-text">About Me</span> </a> </li>
+                                <li class="menu-item menu-item-contact"> <a href="/contact" draggable="false" rel="section"> <i class="menu-item-icon fa fa-fw fa-envelope" aria-hidden="true"></i> <span class="menu-item-text">Contact</span> </a> </li>
+                                <li class="menu-item menu-item-datenschutz"> <a href="/datenschutz" draggable="false" rel="section"> <i class="menu-item-icon fa fa-fw fa-shield" aria-hidden="true"></i> <span class="menu-item-text">Datenschutz</span> </a> </li>
+                                <li class="menu-item menu-item-impressum"> <a href="/impressum" draggable="false" rel="section"> <i class="menu-item-icon fa fa-fw fa-file-text" aria-hidden="true"></i> <span class="menu-item-text">Impressum</span> </a> </li>
                             </ul>
                         </li>
+
                         <li class="menu-item menu-item-sternenkinder">
-                            <a href="https://sternenkinder-e-v.github.io" draggable="false"
-                                title="Sternenkinder e.V. &rarr; https://sternenkinder-e-v.github.io" rel="noopener"
-                                target="_blank">
-                                <i class="menu-item-icon fa fa-fw fa-globe"></i>
-                                <br>Sternenkinder e.V.</a>
+                            <a href="https://sternenkinder-e-v.github.io" draggable="false" title="Sternenkinder e.V. &rarr; https://sternenkinder-e-v.github.io" rel="noopener" target="_blank"> <i class="menu-item-icon fa fa-fw fa-globe"></i>Sternenkinder e.V.</a>
                         </li>
+
                     </ul>
                 </nav>
-
             </div>
         </header>
 
-        <main id="main" class="main">
+        <main id="main" class="main" role="main">
             <div class="main-inner">
                 <div class="content-wrap">
-
                     <div id="content" class="content">
-
                         <section id="posts" class="posts-expand">
-
                             <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-
                                 <div class="post-block">
-
                                     <div class="post-body" itemprop="articleBody">
-                                        <h1>Official website for OstbornTV Webpage</h1>
+                                        <h1>Offizielle Webseite der OstbornTV Webpage</h1>
 
-                                        <p><b>But what are OstbornTV Webpage?</b>
-                                            <br> OstbornTV`s Webpage is an extension of the Bot and now part of <b><a
-                                                    href="https://sternenkinder-e-v.github.io" target="_blank"
-                                                    rel="noopener">&rarr; Sternenkinder e.V.</a>
-                                                <br></b> OstbornTV Webpage
-                                            <br> Hier KÖNNTE IN DER ZUKUNFT ETWAS STEHEN
-                                            <br> Hier KÖNNTE IN DER ZUKUNFT ETWAS STEHEN
-                                            <br> Hier KÖNNTE IN DER ZUKUNFT ETWAS STEHEN
-                                            <br> Hier KÖNNTE IN DER ZUKUNFT ETWAS STEHEN
-                                        </p>
-                                        <p></p>
-                                        <section>
-                                            <h2>Screenshots:</h2>
+                                        <section aria-labelledby="what-is-ostborntv">
+                                            <h2 id="what-is-ostborntv">Was ist OstbornTV Webpage?</h2>
+                                            <p>
+                                                OstbornTV's Webpage ist eine Erweiterung des Bots und nun Teil von 
+                                                <strong><a href="https://sternenkinder-e-v.github.io" target="_blank" 
+                                                rel="noopener noreferrer">Sternenkinder e.V.</a></strong>.
+                                            </p>
+                                            <p>
+                                                Hier entsteht in Zukunft eine Plattform für meine kreativen Wallpaper-Kreationen 
+                                                für Wallpaper Engine.
+                                            </p>
                                         </section>
-                                        <div class="row">
-                                            <div class="column">
-                                                <a data-fancybox="Sternkinder e.V." data-caption="OstbornTV Webpage"
-                                                    href="https://i.imgur.com/glF4mOi.png"><img src="/img/thumb/1.png"
-                                                        alt="Sternkinder e.V." width="240" height="127"></a>
+
+                                        <section aria-labelledby="screenshots">
+                                            <h2 id="screenshots">Screenshots:</h2>
+                                            <div class="gallery-grid">
+                                                <figure class="gallery-item">
+                                                    <a data-fancybox="gallery" data-caption="OstbornTV Wallpaper Beispiel 1" 
+                                                       href="https://i.imgur.com/glF4mOi.png">
+                                                        <img src="/img/thumb/1.png" 
+                                                             alt="Wallpaper Beispiel 1 von OstbornTV" 
+                                                             width="240" height="127" loading="lazy">
+                                                    </a>
+                                                </figure>
+                                                <figure class="gallery-item">
+                                                    <a data-fancybox="gallery" data-caption="OstbornTV Wallpaper Beispiel 2" 
+                                                       href="https://i.imgur.com/ib6bn13.jpg">
+                                                        <img src="/img/thumb/2.png" 
+                                                             alt="Wallpaper Beispiel 2 von OstbornTV" 
+                                                             width="240" height="127" loading="lazy">
+                                                    </a>
+                                                </figure>
+                                                <figure class="gallery-item">
+                                                    <a data-fancybox="gallery" data-caption="OstbornTV Wallpaper Beispiel 3" 
+                                                       href="https://i.imgur.com/V4gcvqG.png">
+                                                        <img src="/img/thumb/3.png" 
+                                                             alt="Wallpaper Beispiel 3 von OstbornTV" 
+                                                             width="240" height="127" loading="lazy">
+                                                    </a>
+                                                </figure>
+                                                <figure class="gallery-item">
+                                                    <a data-fancybox="gallery" data-caption="OstbornTV Wallpaper Beispiel 4" 
+                                                       href="https://i.imgur.com/TUQMzl5.png">
+                                                        <img src="/img/thumb/4.png" 
+                                                             alt="Wallpaper Beispiel 4 von OstbornTV" 
+                                                             width="240" height="127" loading="lazy">
+                                                    </a>
+                                                </figure>
+                                                <figure class="gallery-item">
+                                                    <a data-fancybox="gallery" data-caption="OstbornTV Wallpaper Beispiel 5" 
+                                                       href="https://i.imgur.com/hf8b8Jh.jpg">
+                                                        <img src="/img/thumb/5.png" 
+                                                             alt="Wallpaper Beispiel 5 von OstbornTV" 
+                                                             width="240" height="127" loading="lazy">
+                                                    </a>
+                                                </figure>
+                                                <figure class="gallery-item">
+                                                    <a data-fancybox="gallery" data-caption="OstbornTV Wallpaper Beispiel 6" 
+                                                       href="https://i.imgur.com/wqwFuXn.png">
+                                                        <img src="/img/thumb/6.png" 
+                                                             alt="Wallpaper Beispiel 6 von OstbornTV" 
+                                                             width="240" height="127" loading="lazy">
+                                                    </a>
+                                                    <figcaption>OstbornTV Webpage</figcaption>
+                                                </figure>
                                             </div>
-                                            <div class="column">
-                                                <a data-fancybox="Sternkinder e.V." data-caption="OstbornTV Webpage"
-                                                    href="https://i.imgur.com/ib6bn13.jpg"><img src="/img/thumb/2.png"
-                                                        alt="Sternkinder e.V." width="240" height="127"></a>
-                                            </div>
-                                            <div class="column">
-                                                <a data-fancybox="Sternkinder e.V." data-caption="OstbornTV Webpage"
-                                                    href="https://i.imgur.com/V4gcvqG.png"><img src="/img/thumb/3.png"
-                                                        alt="Sternkinder e.V." width="240" height="127"></a>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="column">
-                                                <a data-fancybox="Sternkinder e.V." data-caption="OstbornTV Webpage"
-                                                    href="https://i.imgur.com/TUQMzl5.png"><img src="/img/thumb/4.png"
-                                                        alt="Sternkinder e.V." width="240" height="127"></a>
-                                            </div>
-                                            <div class="column">
-                                                <a data-fancybox="Sternkinder e.V." data-caption="OstbornTV Webpage"
-                                                    href="https://i.imgur.com/hf8b8Jh.jpg"><img src="/img/thumb/5.png"
-                                                        alt="Sternkinder e.V." width="240" height="127"></a>
-                                            </div>
-                                            <div style="text-align: right" class="column">
-                                                <a data-fancybox="Sternkinder e.V." data-caption="OstbornTV Webpage"
-                                                    href="https://i.imgur.com/wqwFuXn.png"><img src="/img/thumb/6.png"
-                                                        alt="Sternkinder e.V." width="240" height="127"></a><b
-                                                    style="font-size: smaller">OstbornTV Webpage</b>
-                                            </div>
-                                        </div>
+                                        </section>
                                     </div>
 
                                     <footer class="post-footer">
                                         <div class="post-eof"></div>
                                     </footer>
+
                                 </div>
                             </article>
                         </section>
@@ -261,38 +273,28 @@
                     </div>
                 </div>
 
-                <aside id="sidebar" class="sidebar">
+                <aside id="sidebar" class="sidebar" aria-label="Seitenleiste">
                     <div class="sidebar-inner">
                         <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
                             <div class="site-overview">
-                                <div class="site-author motion-element" itemprop="author" itemscope
-                                    itemtype="http://schema.org/Person">
-
+                                <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
                                     <img class="site-author-image overlay" itemprop="image"
-                                        src="/img/favicon/favicon.ico" alt="OstbornTV">
+                                        src="/img/favicon/favicon.ico" alt="OstbornTV Profilbild" width="80" height="80">
                                     <p class="site-author-name overlay" itemprop="name">OstbornTV</p>
                                     <div class="site-description motion-element" itemprop="description"></div>
                                 </div>
 
                                 <div class="links-of-author motion-element">
-
                                     <span class="links-of-author-item">
-                                        <a href="https://sternenkinder-e-v.github.io" draggable="false"
-                                            title="Sternenkinder e.V. &rarr; https://sternenkinder-e-v.github.io"
-                                            rel="noopener" target="_blank"><i
-                                                class="fa fa-fw fa-globe"></i>Sternenkinder e.V.</a>
+                                        <a href="https://sternenkinder-e-v.github.io" draggable="false"title="Besuchen Sie Sternenkinder e.V." rel="noopener noreferrer"target="_blank"><i class="fa fa-fw fa-globe" aria-hidden="true"></i>Sternenkinder e.V.</a>
                                     </span>
 
                                     <span class="links-of-author-item">
-                                        <a href="mailto:ostborntv@hotmail.de" draggable="false"
-                                            title="E-Mail &rarr; ostborntv@hotmail.de"><i
-                                                class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                                        <a href="mailto:ostborntv@hotmail.de" draggable="false"title="Kontakt per E-Mail"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i>E-Mail</a>
                                     </span>
 
                                     <span class="links-of-author-item">
-                                        <a href="https://discord.gg/7BkTCYNkZt" draggable="false"
-                                            title="Discord &rarr; https://discord.gg/7BkTCYNkZt" rel="noopener"
-                                            target="_blank"><i class="fab fa-fw fa-discord"></i>Discord</a>
+                                        <a href="https://discord.gg/7BkTCYNkZt" draggable="false"title="Besuchen Sie unseren Discord" rel="noopener noreferrer"target="_blank"><i class="fab fa-fw fa-discord" aria-hidden="true"></i>Discord</a>
                                     </span>
                                 </div>
                             </div>
@@ -302,54 +304,53 @@
             </div>
         </main>
 
-        <footer id="footer" class="footer">
+        <footer id="footer" class="footer" role="contentinfo">
             <div class="footer-inner">
-                <div class="copyright">&copy; <span itemprop="copyrightYear">2023</span>
-                    <span class="with-love" id="animate"><i class="fa fa-user"></i></span>
+                <div class="copyright">
+                    &copy; <span itemprop="copyrightYear">2023</span>
+                    <span class="with-love" id="animate"><i class="fa fa-user" aria-hidden="true"></i></span>
                     <span class="author" itemprop="copyrightHolder">OstbornTV</span>
-                    <span class="links-of-contact-item">
-                        <a href="/contact" title="Contact" rel="noopener" target="_self">Contact</a>
-                    </span>
-                    <span class="links-of-datenschutz-item">
-                        <a href="/datenschutz" title="Datenschutz" rel="noopener" target="_self">Datenschutz</a>
-                    </span>
-                    <span class="links-of-impressum-item">
-                        <a href="/impressum" title="Impressum" rel="noopener" target="_self">Impressum</a>
-                    </span>
+                    
+                    <nav class="footer-nav" aria-label="Rechtliche Links">
+                        <ul>
+                            <li><a href="/contact" title="Kontakt">Contact</a></li>
+                            <li><a href="/datenschutz" title="Datenschutzbestimmungen">Datenschutz</a></li>
+                            <li><a href="/impressum" title="Impressum">Impressum</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </footer>
 
-        <div class="back-to-top">
-            <i class="fa fa-arrow-up"></i>
+        <div class="back-to-top" aria-label="Nach oben scrollen">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
         </div>
-
     </div>
 
     <script>
         if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
             window.Promise = null;
         }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            if ('loading' in HTMLImageElement.prototype) {
+                const images = document.querySelectorAll('img[loading="lazy"]');
+                images.forEach(img => {
+                    img.src = img.dataset.src;
+                });
+            }
+        });
     </script>
 
-    <script src="/lib/jquery/index.js?v=3.4.1"></script>
-
-    <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-    <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-    <script src="/lib/fancybox/jquery.fancybox.min.js?v=3.5.7"></script>
-
-    <script src="/js/utils.js?v=7.1.1"></script>
-
-    <script src="/js/motion.js?v=7.1.1"></script>
-
-    <script src="/js/affix.js?v=7.1.1"></script>
-
-    <script src="/js/schemes/pisces.js?v=7.1.1"></script>
-
-    <script src="/js/next-boot.js?v=7.1.1"></script>
+    <script src="/lib/jquery/jquery-3.6.0.min.js" defer></script>
+    <script src="/lib/velocity/velocity.min.js" defer></script>
+    <script src="/lib/velocity/velocity.ui.min.js" defer></script>
+    <script src="/lib/fancybox/jquery.fancybox.min.js" defer></script>
+    <script src="/js/utils.js" defer></script>
+    <script src="/js/motion.js" defer></script>
+    <script src="/js/affix.js" defer></script>
+    <script src="/js/schemes/pisces.js" defer></script>
+    <script src="/js/next-boot.js" defer></script>
 
 </body>
-
 </html>

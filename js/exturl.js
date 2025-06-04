@@ -1,14 +1,76 @@
-$(document).ready(function() {
+$(document).ready(function () {
+  // Base64 Utility
+  const Base64 = {
+    _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
 
-  // Create Base64 Object
-  /* eslint-disable */
-  var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(e){var t="";var n,r,i,s,o,u,a;var f=0;e=Base64._utf8_encode(e);while(f<e.length){n=e.charCodeAt(f++);r=e.charCodeAt(f++);i=e.charCodeAt(f++);s=n>>2;o=(n&3)<<4|r>>4;u=(r&15)<<2|i>>6;a=i&63;if(isNaN(r)){u=a=64}else if(isNaN(i)){a=64}t=t+this._keyStr.charAt(s)+this._keyStr.charAt(o)+this._keyStr.charAt(u)+this._keyStr.charAt(a)}return t},decode:function(e){var t="";var n,r,i;var s,o,u,a;var f=0;e=e.replace(/[^A-Za-z0-9+/=]/g,"");while(f<e.length){s=this._keyStr.indexOf(e.charAt(f++));o=this._keyStr.indexOf(e.charAt(f++));u=this._keyStr.indexOf(e.charAt(f++));a=this._keyStr.indexOf(e.charAt(f++));n=s<<2|o>>4;r=(o&15)<<4|u>>2;i=(u&3)<<6|a;t=t+String.fromCharCode(n);if(u!=64){t=t+String.fromCharCode(r)}if(a!=64){t=t+String.fromCharCode(i)}}t=Base64._utf8_decode(t);return t},_utf8_encode:function(e){e=e.replace(/rn/g,"n");var t="";for(var n=0;n<e.length;n++){var r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r)}else if(r>127&&r<2048){t+=String.fromCharCode(r>>6|192);t+=String.fromCharCode(r&63|128)}else{t+=String.fromCharCode(r>>12|224);t+=String.fromCharCode(r>>6&63|128);t+=String.fromCharCode(r&63|128)}}return t},_utf8_decode:function(e){var t="";var n=0;var r=c1=c2=0;while(n<e.length){r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r);n++}else if(r>191&&r<224){c2=e.charCodeAt(n+1);t+=String.fromCharCode((r&31)<<6|c2&63);n+=2}else{c2=e.charCodeAt(n+1);c3=e.charCodeAt(n+2);t+=String.fromCharCode((r&15)<<12|(c2&63)<<6|c3&63);n+=3}}return t}};
+    encode(input) {
+      let output = "";
+      let i = 0;
+      input = this._utf8_encode(input);
 
-  $('.exturl').on('click', function() {
-    var $exturl = $(this).attr('data-url');
-    var $decurl = Base64.decode($exturl);
-    window.open($decurl, '_blank');
-    return false;
+      while (i < input.length) {
+        const chr1 = input.charCodeAt(i++);
+        const chr2 = input.charCodeAt(i++);
+        const chr3 = input.charCodeAt(i++);
+
+        const enc1 = chr1 >> 2;
+        const enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+        const enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+        const enc4 = chr3 & 63;
+
+        output += this._keyStr.charAt(enc1);
+        output += this._keyStr.charAt(enc2);
+        output += isNaN(chr2) ? "=" : this._keyStr.charAt(enc3);
+        output += isNaN(chr3) ? "=" : this._keyStr.charAt(enc4);
+      }
+
+      return output;
+    },
+
+    decode(input) {
+      let output = "";
+      let i = 0;
+
+      input = input.replace(/[^A-Za-z0-9+/=]/g, "");
+
+      while (i < input.length) {
+        const enc1 = this._keyStr.indexOf(input.charAt(i++));
+        const enc2 = this._keyStr.indexOf(input.charAt(i++));
+        const enc3 = this._keyStr.indexOf(input.charAt(i++));
+        const enc4 = this._keyStr.indexOf(input.charAt(i++));
+
+        const chr1 = (enc1 << 2) | (enc2 >> 4);
+        const chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
+        const chr3 = ((enc3 & 3) << 6) | enc4;
+
+        output += String.fromCharCode(chr1);
+        if (enc3 !== 64) output += String.fromCharCode(chr2);
+        if (enc4 !== 64) output += String.fromCharCode(chr3);
+      }
+
+      return this._utf8_decode(output);
+    },
+
+    _utf8_encode(string) {
+      return unescape(encodeURIComponent(string));
+    },
+
+    _utf8_decode(string) {
+      return decodeURIComponent(escape(string));
+    },
+  };
+
+  // External Link Handler
+  $('.exturl').on('click', function (e) {
+    e.preventDefault();
+    const encodedUrl = $(this).data('url');
+    if (!encodedUrl) return;
+
+    try {
+      const decodedUrl = Base64.decode(encodedUrl);
+      window.open(decodedUrl, '_blank');
+    } catch (err) {
+      console.error('Ungültige URL:', err);
+    }
   });
-
 });
