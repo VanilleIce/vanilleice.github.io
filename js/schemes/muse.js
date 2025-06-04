@@ -18,5 +18,5 @@ $(document).ready(function () {
   }
 
   updateFooterPosition();
-//  $(window).on('resize scroll', updateFooterPosition);
+  $(window).on('resize scroll', updateFooterPosition);
 });

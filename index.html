@@ -33,8 +33,8 @@
     <link rel="canonical" href="https://ostborntv.github.io/">
 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css?v=5.9.0">
-    <link rel="stylesheet" href="lib/fancybox/jquery.fancybox.min.css?v=3.5.7">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/fancybox/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/language.css">
 
     <link rel="icon" href="/img/favicon/favicon.ico" sizes="any">
@@ -199,18 +199,15 @@
                                             <br>
                                             <a class="overlay"
                                                 href="steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=2870692419"
-                                                draggable="false"><img src="/img/first_wall.jpg" alt="Klick mich" width="800" height="450"
-                                                    loading="lazy" class="overlay"></a>
+                                                draggable="false"><img src="/img/first_wall.jpg" alt="Klick mich" width="800" height="450" class="overlay"></a>
                                             <br>
                                             <a class="overlay"
                                                 href="steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=2870594403"
-                                                draggable="false"><img src="/img/zwo_wall.png" alt="Klick mich" width="800" height="450"
-                                                    loading="lazy" class="overlay"></a>
+                                                draggable="false"><img src="/img/zwo_wall.png" alt="Klick mich" width="800" height="450" class="overlay"></a>
                                             <br>
                                             <a class="overlay"
                                                 href="steam://openurl/https://steamcommunity.com/sharedfiles/filedetails/?id=2870599037"
-                                                draggable="false"><img src="/img/thirt_wall.jpg" alt="Klick mich" width="800" height="450"
-                                                    loading="lazy" class="overlay"></a>
+                                                draggable="false"><img src="/img/thirt_wall.jpg" alt="Klick mich" width="800" height="450" class="overlay"></a>
                                             <br>
                                         </div>
                                         <h6></h6>
@@ -328,26 +325,17 @@
         if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
             window.Promise = null;
         }
-        
-        document.addEventListener('DOMContentLoaded', function() {
-            if ('loading' in HTMLImageElement.prototype) {
-                const images = document.querySelectorAll('img[loading="lazy"]');
-                images.forEach(img => {
-                    img.src = img.dataset.src;
-                });
-            }
-        });
     </script>
 
-    <script src="/lib/jquery/jquery-3.6.0.min.js" defer></script>
-    <script src="/lib/velocity/velocity.min.js" defer></script>
-    <script src="/lib/velocity/velocity.ui.min.js" defer></script>
-    <script src="/lib/fancybox/jquery.fancybox.min.js" defer></script>
-    <script src="/js/utils.js" defer></script>
-    <script src="/js/motion.js" defer></script>
-    <script src="/js/affix.js" defer></script>
-    <script src="/js/schemes/pisces.js" defer></script>
-    <script src="/js/next-boot.js" defer></script>
+    <script src="/lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="/lib/velocity/velocity.min.js"></script>
+    <script src="/lib/velocity/velocity.ui.min.js"></script>
+    <script src="/lib/fancybox/jquery.fancybox.min.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/motion.js"></script>
+    <script src="/js/affix.js"></script>
+    <script src="/js/schemes/pisces.js"></script>
+    <script src="/js/next-boot.js"></script>
     
 </body>
 </html>

@@ -1,0 +1,296 @@
+/* ==========================================================================
+   Base Styles & Reset (Normalize.css v8.0.1 mit Anpassungen)
+   ========================================================================== */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.42);
+  background: #171717 url("../img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track { background: #2b2b2b; }
+::-webkit-scrollbar-thumb {
+  background: #191919;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover { background: #131212; }
+
+/* Selection Styling */
+::selection {
+  background: #262a30;
+  color: #fff;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 15px;
+  padding: 0;
+  font-weight: bold;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.478);
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: 1.1em; }
+h6 { font-size: 1em; }
+
+p { margin: 0 0 20px 0; }
+
+/* Links */
+a {
+  color: #4365a6;
+  background-color: transparent;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover { color: lighten(#4365a6, 10%); }
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/* ==========================================================================
+   Layout Components
+   ========================================================================== */
+.container {
+  position: relative;
+  margin: auto;
+  max-width: 2000px;
+}
+
+.header, .main, .footer {
+  margin: 0 auto;
+  width: calc(100% - 20px);
+}
+
+@media (min-width: 1200px) {
+  .header, .main, .footer { width: 1160px; }
+}
+
+/* Header Styles */
+.header-inner {
+  padding: 100px 0 70px;
+  background-color: rgba(20, 20, 20, 0.95);
+}
+
+.site-title {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/* Navigation */
+.site-nav {
+  margin-top: 20px;
+}
+.menu {
+  padding-left: 0;
+  text-align: center;
+}
+.menu-item {
+  display: inline-block;
+  margin: 0 10px;
+  list-style: none;
+}
+.menu-item a {
+  font-weight: bold;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+.menu-item a:hover {
+  border-bottom-color: #222;
+}
+
+/* Main Content */
+.content-wrap {
+  background: rgba(20, 20, 20, 0.95);
+  padding: 40px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.5);
+}
+
+.post-block {
+  margin-bottom: 40px;
+}
+
+/* Sidebar */
+.sidebar {
+  background: rgba(20, 20, 20, 0.95);
+  width: 240px;
+}
+.sidebar-inner {
+  padding: 20px;
+}
+
+/* Footer */
+.footer-inner {
+  text-align: center;
+  padding: 20px;
+  background: rgba(20, 20, 20, 0.95);
+}
+
+/* ==========================================================================
+   Component Styles
+   ========================================================================== */
+/* Gallery Grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -2px;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 2px;
+  box-sizing: border-box;
+}
+.column img {
+  transition: opacity 0.3s ease;
+}
+.column img:hover {
+  opacity: 0.8;
+}
+
+/* Accordion */
+.accordion {
+  background-color: #232323;
+  color: #b3b2b2;
+  padding: 10px;
+  display: block;
+  transition: all 0.3s ease;
+}
+.accordion:hover, .accordion.active {
+  background-color: #afafaf;
+  color: #444;
+}
+.panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+.panel.show {
+  max-height: 1000px; /* Adjust based on content */
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background: #333;
+}
+
+/* ==========================================================================
+   Utility Classes
+   ========================================================================== */
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.mt-20 { margin-top: 20px; }
+.mb-20 { margin-bottom: 20px; }
+.hidden { display: none; }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media (max-width: 991px) {
+  .header-inner, .content-wrap {
+    padding: 20px;
+  }
+  
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-inner, .content-wrap {
+    padding: 15px;
+  }
+  
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  
+  .menu-item {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* ==========================================================================
+   Animation Keyframes
+   ========================================================================== */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes dot-flash {
+  from { opacity: 1; transform: scale(1.1); }
+  to { opacity: 0; transform: scale(1); }
+}
+
+/* ==========================================================================
+   Theme Specific Overrides
+   ========================================================================== */
+/* Dark theme adjustments */
+.post-block, .sidebar-inner, .header-inner {
+  background-color: rgba(20, 20, 20, 0.95);
+  color: rgba(255, 255, 255, 0.42);
+}
+
+/* Code blocks */
+pre {
+  background-color: rgba(43, 43, 43, 0.15);
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+code {
+  font-family: consolas, Menlo, monospace;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
+  .sidebar, .site-nav-toggle, .back-to-top {
+    display: none;
+  }
+  .content-wrap {
+    padding: 0;
+    box-shadow: none;
+  }
+}
